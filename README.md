@@ -55,11 +55,9 @@ Import `<Repro/Repro.h>` and set `application:didFinishLaunchingWithOptions`
 
     ...
 
-    repro = [Repro sharedInstance];
-    [repro setToken:@"YOUR_APP_TOKEN"];
-
     NSError *error = nil;
-    [repro startRecordingDidFailWithError:&error];
+    [Repro setupReproWithToken:@"YOUR_APP_TOKEN"
+                     withError:&error];
     if (error) {
         NSLog(@"%@| %@", error.domain, error.localizedDescription);
     }

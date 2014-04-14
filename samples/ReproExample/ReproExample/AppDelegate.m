@@ -8,18 +8,15 @@
 
 #import "AppDelegate.h"
 #import <Repro/Repro.h>
-#import <objc/runtime.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    Repro *repro = [Repro sharedInstance];
-    [repro setToken:@"YOUR_APP_TOKEN"];
     
     NSError *error = nil;
-    [repro startRecordingDidFailWithError:&error];
+    [Repro setupReproWithToken:@"YOUR_APP_TOKEN" withError:&error];
     if (error) {
         NSLog(@"%@| %@", error.domain, error.localizedDescription);
     }   

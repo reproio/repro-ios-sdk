@@ -12,12 +12,11 @@
 
 @property (nonatomic, assign, readonly) NSUInteger status;
 
++ (void)setupReproWithToken:(NSString *)token withError:(NSError**)error;
 + (id)sharedInstance;
 
-// configuration
-- (void)setToken:(NSString *)token;
-
 // control recorder
+- (void)loadConfigWithToken:(NSString *)token;
 - (void)startRecordingDidFailWithError:(NSError**)error;
 - (void)stopRecordingDidFailWithError:(NSError**)error;
 
