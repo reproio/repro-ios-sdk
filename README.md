@@ -1,7 +1,7 @@
 repro-ios-sdk
 =============
 
-
+[![Gitter chat](https://badges.gitter.im/reproio/repro-ios-sdk.png)](https://gitter.im/reproio/repro-ios-sdk)
 
 Getting Started
 ---------------
