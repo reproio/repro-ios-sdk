@@ -55,12 +55,7 @@ Import `<Repro/Repro.h>` and set `application:didFinishLaunchingWithOptions`
 
     ...
 
-    NSError *error = nil;
-    [Repro setupReproWithToken:@"YOUR_APP_TOKEN"
-                     withError:&error];
-    if (error) {
-        NSLog(@"%@| %@", error.domain, error.localizedDescription);
-    }
+    [Repro setupReproWithToken:@"YOUR_APP_TOKEN"];
 
     ...
 

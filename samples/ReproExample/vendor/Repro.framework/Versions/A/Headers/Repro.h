@@ -10,13 +10,14 @@
 
 @interface Repro : NSObject
 
+@property (nonatomic, retain, readwrite) NSString *token;
 @property (nonatomic, assign, readonly) NSUInteger status;
 
-+ (void)setupReproWithToken:(NSString *)token withError:(NSError**)error;
++ (void)setupReproWithToken:(NSString *)token;
 + (id)sharedInstance;
 
 // control recorder
-- (void)loadConfigWithToken:(NSString *)token;
+- (void)configureWithToken:(NSString *)token didFailWithError:(NSError **)error;
 - (void)startRecordingDidFailWithError:(NSError**)error;
 - (void)stopRecordingDidFailWithError:(NSError**)error;
 
