@@ -15,11 +15,8 @@
 {
     // Override point for customization after application launch.
     
-    NSError *error = nil;
-    [Repro setupReproWithToken:@"YOUR_APP_TOKEN" withError:&error];
-    if (error) {
-        NSLog(@"%@| %@", error.domain, error.localizedDescription);
-    }   
+    [Repro setupReproWithToken:@"YOUR_APP_TOKEN"];
+    
     return YES;
 }
 							

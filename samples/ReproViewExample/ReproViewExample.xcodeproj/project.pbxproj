@@ -21,7 +21,7 @@
 		BF9BCC6B18EA736E00960290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9BCC4718EA736E00960290 /* Foundation.framework */; };
 		BF9BCC6C18EA736E00960290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9BCC4B18EA736E00960290 /* UIKit.framework */; };
 		BF9BCC7418EA736E00960290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9BCC7218EA736E00960290 /* InfoPlist.strings */; };
-		BF9BCC7618EA736E00960290 /* ReproExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BCC7518EA736E00960290 /* ReproExampleTests.m */; };
+		BF9BCC7618EA736E00960290 /* ReproViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9BCC7518EA736E00960290 /* ReproViewExampleTests.m */; };
 		BF9BCC8618EA770A00960290 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9BCC8518EA770A00960290 /* AVFoundation.framework */; };
 		BFB36E4A18F5284C00A793D4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB36E4918F5284C00A793D4 /* CoreMedia.framework */; };
 		BFD5787818EACE6700292EE3 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD5787518EACE6700292EE3 /* AWSRuntime.framework */; };
@@ -41,14 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF9BCC4418EA736E00960290 /* ReproExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9BCC4418EA736E00960290 /* ReproViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9BCC4718EA736E00960290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF9BCC4918EA736E00960290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BF9BCC4B18EA736E00960290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BF9BCC4F18EA736E00960290 /* ReproExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReproExample-Info.plist"; sourceTree = "<group>"; };
+		BF9BCC4F18EA736E00960290 /* ReproViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReproViewExample-Info.plist"; sourceTree = "<group>"; };
 		BF9BCC5118EA736E00960290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF9BCC5318EA736E00960290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF9BCC5518EA736E00960290 /* ReproExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReproExample-Prefix.pch"; sourceTree = "<group>"; };
+		BF9BCC5518EA736E00960290 /* ReproViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReproViewExample-Prefix.pch"; sourceTree = "<group>"; };
 		BF9BCC5618EA736E00960290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF9BCC5718EA736E00960290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF9BCC5A18EA736E00960290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,11 +57,11 @@
 		BF9BCC5F18EA736E00960290 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		BF9BCC6018EA736E00960290 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BF9BCC6218EA736E00960290 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BF9BCC6818EA736E00960290 /* ReproExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9BCC6818EA736E00960290 /* ReproViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9BCC6918EA736E00960290 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BF9BCC7118EA736E00960290 /* ReproExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReproExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BF9BCC7118EA736E00960290 /* ReproViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReproViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		BF9BCC7318EA736E00960290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BF9BCC7518EA736E00960290 /* ReproExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproExampleTests.m; sourceTree = "<group>"; };
+		BF9BCC7518EA736E00960290 /* ReproViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproViewExampleTests.m; sourceTree = "<group>"; };
 		BF9BCC8518EA770A00960290 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BFB36E4718F5283F00A793D4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		BFB36E4918F5284C00A793D4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -104,8 +104,8 @@
 		BF9BCC3B18EA736E00960290 = {
 			isa = PBXGroup;
 			children = (
-				BF9BCC4D18EA736E00960290 /* ReproExample */,
-				BF9BCC6F18EA736E00960290 /* ReproExampleTests */,
+				BF9BCC4D18EA736E00960290 /* ReproViewExample */,
+				BF9BCC6F18EA736E00960290 /* ReproViewExampleTests */,
 				BF9BCC4618EA736E00960290 /* Frameworks */,
 				BF9BCC4518EA736E00960290 /* Products */,
 			);
@@ -114,8 +114,8 @@
 		BF9BCC4518EA736E00960290 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF9BCC4418EA736E00960290 /* ReproExample.app */,
-				BF9BCC6818EA736E00960290 /* ReproExampleTests.xctest */,
+				BF9BCC4418EA736E00960290 /* ReproViewExample.app */,
+				BF9BCC6818EA736E00960290 /* ReproViewExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF9BCC4D18EA736E00960290 /* ReproExample */ = {
+		BF9BCC4D18EA736E00960290 /* ReproViewExample */ = {
 			isa = PBXGroup;
 			children = (
 				BF9BCC5618EA736E00960290 /* AppDelegate.h */,
@@ -151,33 +151,34 @@
 				BF9BCC6218EA736E00960290 /* Images.xcassets */,
 				BF9BCC4E18EA736E00960290 /* Supporting Files */,
 			);
-			path = ReproExample;
+			name = ReproViewExample;
+			path = ReproVIewExample;
 			sourceTree = "<group>";
 		};
 		BF9BCC4E18EA736E00960290 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF9BCC4F18EA736E00960290 /* ReproExample-Info.plist */,
+				BF9BCC4F18EA736E00960290 /* ReproViewExample-Info.plist */,
 				BF9BCC5018EA736E00960290 /* InfoPlist.strings */,
 				BF9BCC5318EA736E00960290 /* main.m */,
-				BF9BCC5518EA736E00960290 /* ReproExample-Prefix.pch */,
+				BF9BCC5518EA736E00960290 /* ReproViewExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BF9BCC6F18EA736E00960290 /* ReproExampleTests */ = {
+		BF9BCC6F18EA736E00960290 /* ReproViewExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				BF9BCC7518EA736E00960290 /* ReproExampleTests.m */,
+				BF9BCC7518EA736E00960290 /* ReproViewExampleTests.m */,
 				BF9BCC7018EA736E00960290 /* Supporting Files */,
 			);
-			path = ReproExampleTests;
+			path = ReproViewExampleTests;
 			sourceTree = "<group>";
 		};
 		BF9BCC7018EA736E00960290 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BF9BCC7118EA736E00960290 /* ReproExampleTests-Info.plist */,
+				BF9BCC7118EA736E00960290 /* ReproViewExampleTests-Info.plist */,
 				BF9BCC7218EA736E00960290 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -186,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF9BCC4318EA736E00960290 /* ReproExample */ = {
+		BF9BCC4318EA736E00960290 /* ReproViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF9BCC7918EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproExample" */;
+			buildConfigurationList = BF9BCC7918EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproViewExample" */;
 			buildPhases = (
 				BF9BCC4018EA736E00960290 /* Sources */,
 				BF9BCC4118EA736E00960290 /* Frameworks */,
@@ -198,14 +199,14 @@
 			);
 			dependencies = (
 			);
-			name = ReproExample;
+			name = ReproViewExample;
 			productName = ReproExample;
-			productReference = BF9BCC4418EA736E00960290 /* ReproExample.app */;
+			productReference = BF9BCC4418EA736E00960290 /* ReproViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF9BCC6718EA736E00960290 /* ReproExampleTests */ = {
+		BF9BCC6718EA736E00960290 /* ReproViewExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF9BCC7C18EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproExampleTests" */;
+			buildConfigurationList = BF9BCC7C18EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproViewExampleTests" */;
 			buildPhases = (
 				BF9BCC6418EA736E00960290 /* Sources */,
 				BF9BCC6518EA736E00960290 /* Frameworks */,
@@ -216,9 +217,9 @@
 			dependencies = (
 				BF9BCC6E18EA736E00960290 /* PBXTargetDependency */,
 			);
-			name = ReproExampleTests;
+			name = ReproViewExampleTests;
 			productName = ReproExampleTests;
-			productReference = BF9BCC6818EA736E00960290 /* ReproExampleTests.xctest */;
+			productReference = BF9BCC6818EA736E00960290 /* ReproViewExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF9BCC3F18EA736E00960290 /* Build configuration list for PBXProject "ReproExample" */;
+			buildConfigurationList = BF9BCC3F18EA736E00960290 /* Build configuration list for PBXProject "ReproViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,8 +249,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF9BCC4318EA736E00960290 /* ReproExample */,
-				BF9BCC6718EA736E00960290 /* ReproExampleTests */,
+				BF9BCC4318EA736E00960290 /* ReproViewExample */,
+				BF9BCC6718EA736E00960290 /* ReproViewExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9BCC7618EA736E00960290 /* ReproExampleTests.m in Sources */,
+				BF9BCC7618EA736E00960290 /* ReproViewExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +301,7 @@
 /* Begin PBXTargetDependency section */
 		BF9BCC6E18EA736E00960290 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF9BCC4318EA736E00960290 /* ReproExample */;
+			target = BF9BCC4318EA736E00960290 /* ReproViewExample */;
 			targetProxy = BF9BCC6D18EA736E00960290 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,14 +427,14 @@
 					"$(PROJECT_DIR)/vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ReproExample/ReproExample-Prefix.pch";
-				INFOPLIST_FILE = "ReproExample/ReproExample-Info.plist";
+				GCC_PREFIX_HEADER = "ReproViewExample/ReproViewExample-Prefix.pch";
+				INFOPLIST_FILE = "ReproViewExample/ReproViewExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReproViewExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -448,14 +449,14 @@
 					"$(PROJECT_DIR)/vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ReproExample/ReproExample-Prefix.pch";
-				INFOPLIST_FILE = "ReproExample/ReproExample-Info.plist";
+				GCC_PREFIX_HEADER = "ReproViewExample/ReproViewExample-Prefix.pch";
+				INFOPLIST_FILE = "ReproViewExample/ReproViewExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-Objc",
 					"-all_load",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ReproViewExample;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,20 +464,20 @@
 		BF9BCC7D18EA736E00960290 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReproExample.app/ReproExample";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReproViewExample.app/ReproViewExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ReproExample/ReproExample-Prefix.pch";
+				GCC_PREFIX_HEADER = "ReproViewExample/ReproViewExample-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ReproExampleTests/ReproExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ReproViewExampleTests/ReproViewExampleTests-Info.plist";
+				PRODUCT_NAME = ReproViewExampleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -485,16 +486,16 @@
 		BF9BCC7E18EA736E00960290 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReproExample.app/ReproExample";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReproViewExample.app/ReproViewExample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ReproExample/ReproExample-Prefix.pch";
-				INFOPLIST_FILE = "ReproExampleTests/ReproExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ReproViewExample/ReproViewExample-Prefix.pch";
+				INFOPLIST_FILE = "ReproViewExampleTests/ReproViewExampleTests-Info.plist";
+				PRODUCT_NAME = ReproViewExampleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -503,7 +504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF9BCC3F18EA736E00960290 /* Build configuration list for PBXProject "ReproExample" */ = {
+		BF9BCC3F18EA736E00960290 /* Build configuration list for PBXProject "ReproViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF9BCC7718EA736E00960290 /* Debug */,
@@ -512,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF9BCC7918EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproExample" */ = {
+		BF9BCC7918EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF9BCC7A18EA736E00960290 /* Debug */,
@@ -521,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF9BCC7C18EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproExampleTests" */ = {
+		BF9BCC7C18EA736E00960290 /* Build configuration list for PBXNativeTarget "ReproViewExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF9BCC7D18EA736E00960290 /* Debug */,
