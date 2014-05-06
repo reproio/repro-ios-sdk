@@ -1,14 +1,12 @@
-repro-ios-sdk
+repro-view-ios-sdk
 =============
-
-[![Gitter chat](https://badges.gitter.im/reproio/repro-ios-sdk.png)](https://gitter.im/reproio/repro-ios-sdk)
 
 Getting Started
 ---------------
 
 ### Download iOS SDK and Unzip
 
-1. Download from [repro-ios-sdk](https://github.com/reproio/repro-ios-sdk/archive/master.zip)
+1. Download from [repro-view-ios-sdk](https://github.com/reproio/repro-view-ios-sdk/archive/master.zip)
 1. Download from [aws-ios-sdk](http://sdk-for-ios.amazonwebservices.com/latest/aws-ios-sdk.zip)
 
 ### Add Frameworks
@@ -27,7 +25,6 @@ We require these frameworks
 Add AWS, Repro, AVFoundation frameworks
 
 ![Add Frameworks](assets/frameworks.png)
-
 
 ### Set Build Option
 
