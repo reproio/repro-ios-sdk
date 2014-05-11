@@ -1,12 +1,17 @@
-repro-view-ios-sdk
+repro-ios-sdk
 =============
 
-Getting Started
----------------
+This SDK include
+
+* ReproInsight
+* ReproSurvey
+
+Getting Started : ReproInsight
+------------------------------
 
 ### Download iOS SDK and Unzip
 
-1. Download from [repro-view-ios-sdk](https://github.com/reproio/repro-view-ios-sdk/archive/master.zip)
+1. Download from [repro-ios-sdk](https://github.com/reproio/repro-ios-sdk/archive/master.zip)
 1. Download from [aws-ios-sdk](http://sdk-for-ios.amazonwebservices.com/latest/aws-ios-sdk.zip)
 
 ### Add Frameworks
@@ -24,7 +29,7 @@ We require these frameworks
 
 Add AWS, Repro, AVFoundation frameworks
 
-![Add Frameworks](assets/frameworks.png)
+![Add Frameworks](assets/insight/frameworks.png)
 
 ### Set Build Option
 
@@ -34,16 +39,15 @@ Open `project > BuilSetting > Linking > Other Linker Flags`
 
 add `-Objc -all_load`
 
-![linker flags](assets/linker_flag.png)
+![linker flags](assets/insight/linker_flag.png)
 
 
 ### Add Script to AppDelegate.m
 
-Import `<Repro/Repro.h>` and set `application:didFinishLaunchingWithOptions`
-
+Import `<Repro/ReproInsight.h>` and set `application:didFinishLaunchingWithOptions`
 
 ```
-#import <Repro/Repro.h>
+#import <Repro/ReproInsight.h>
 
 ...
 
@@ -52,12 +56,51 @@ Import `<Repro/Repro.h>` and set `application:didFinishLaunchingWithOptions`
 
     ...
 
-    [Repro setupReproWithToken:@"YOUR_APP_TOKEN"];
+    [ReproInsight setupWithToken:@"YOUR_APP_TOKEN"];
 
     ...
 
 }
 ```
+
+Getting Started : ReproSurvey
+-----------------------------
+
+### Download iOS SDK and Unzip
+
+Download from [repro-ios-sdk](https://github.com/reproio/repro-ios-sdk/archive/master.zip)
+
+### Add Frameworks
+
+We require these frameworks
+
+* CoreGraphics.framework
+* Repro.framework
+* UIKit.framework
+
+![Add Frameworks](assets/survey/frameworks.png)
+
+### Add Script to AppDelegate.m
+
+Import `<Repro/ReproSurvey.h>` and set `application:didFinishLaunchingWithOptions`
+
+```
+#import <Repro/ReproSurvey.h>
+
+...
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+
+    ...
+
+    [ReproSurvey setupWithToken:@"YOUR_APP_TOKEN"];
+
+    ...
+
+}
+```
+
 
 Other Usage
 -----------
