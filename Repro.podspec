@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     type: 'Copyright',
     text: 'Copyright (c) 2014 Repro, Inc.'
   }
-  s.author            = { 'Repro' => 'support@gmail.com' }
+  s.author            = { 'Repro' => 'support@repro.io' }
   s.social_media_url  = 'https://twitter.com/reproio'
   s.source            = {
     :git => 'https://github.com/reproio/repro-ios-sdk.git',
@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://github.com/reproio/repro-ios-sdk/wiki'
 
   s.platform          = :ios
-  # s.ios.deployment_target = '5.0'
   s.requires_arc      = true
 
-  s.exclude_files     = "sample/**"
-
   s.public_header_files = 'Repro.framework/**/*.h'
+  s.vendored_frameworks = 'Repro.framework'
   s.frameworks          = 'AVFoundation', 'QuartzCore', 'CoreMedia'
-  s.dependency 'AWSiOSSDK', '~> 1.7.1'
+  s.dependency 'AWSiOSSDK/Runtime', '~> 1.7.1'
+  s.dependency 'AWSiOSSDK/S3', '~> 1.7.1'
+  s.dependency 'AWSiOSSDK/SQS', '~> 1.7.1'
 
   s.xcconfig            = { 'OTHER_LDFLAGS' => '-ObjC -all_load'}
   # s.vendored_frameworks = 'Repro.framework'

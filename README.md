@@ -15,6 +15,16 @@ To run the example project; clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* AVFoundation.framework
+* AWSRuntime.framework
+* AWSS3.framework
+* AWSSQS.framework
+* CoreGraphics.framework
+* CoreMedia.framework
+* Repro.framework
+* UIKit.framework
+
+
 ## Installation
 
 Repro is available through [CocoaPods](http://cocoapods.org), to install
@@ -23,8 +33,7 @@ it simply add the following line to your Podfile:
     pod "Repro"
 
 
-Getting Started : ReproInsight
-------------------------------
+## Manual Installation : ReproInsight
 
 ### Download iOS SDK and Unzip
 
@@ -80,8 +89,7 @@ Import `<Repro/ReproInsight.h>` and set `application:didFinishLaunchingWithOptio
 }
 ```
 
-Getting Started : ReproSurvey
------------------------------
+## Manual Installation : ReproSurvey
 
 ### Download iOS SDK and Unzip
 
@@ -130,9 +138,11 @@ Under writing ...
 
 ## Author
 
-ae06710, ae06710@gmail.com
+Repro, Inc.
 
 ## License
+
+Copyright Repro, Inc.
 
 
 

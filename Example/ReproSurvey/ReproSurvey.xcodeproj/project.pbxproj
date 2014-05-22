@@ -22,7 +22,6 @@
 		BFC1503B191F7EFE003C439D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC1501A191F7EFE003C439D /* UIKit.framework */; };
 		BFC15043191F7EFE003C439D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC15041191F7EFE003C439D /* InfoPlist.strings */; };
 		BFC15045191F7EFE003C439D /* ReproSurveyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC15044191F7EFE003C439D /* ReproSurveyTests.m */; };
-		BFC1504F191F7F52003C439D /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC1504E191F7F52003C439D /* Repro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +56,6 @@
 		BFC15040191F7EFE003C439D /* ReproSurveyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReproSurveyTests-Info.plist"; sourceTree = "<group>"; };
 		BFC15042191F7EFE003C439D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFC15044191F7EFE003C439D /* ReproSurveyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproSurveyTests.m; sourceTree = "<group>"; };
-		BFC1504E191F7F52003C439D /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = vendor/Repro.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				BFC15019191F7EFE003C439D /* CoreGraphics.framework in Frameworks */,
 				BFC1501B191F7EFE003C439D /* UIKit.framework in Frameworks */,
 				BFC15017191F7EFE003C439D /* Foundation.framework in Frameworks */,
-				BFC1504F191F7F52003C439D /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +104,6 @@
 		BFC15015191F7EFE003C439D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFC1504E191F7F52003C439D /* Repro.framework */,
 				BFC15016191F7EFE003C439D /* Foundation.framework */,
 				BFC15018191F7EFE003C439D /* CoreGraphics.framework */,
 				BFC1501A191F7EFE003C439D /* UIKit.framework */,
@@ -388,7 +384,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/vendor",
+					"$(SRCROOT)/../../",
+					"$(SRCROOT)/../vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReproSurvey/ReproSurvey-Prefix.pch";
@@ -405,7 +402,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/vendor",
+					"$(SRCROOT)/../../",
+					"$(SRCROOT)/../vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReproSurvey/ReproSurvey-Prefix.pch";
@@ -474,6 +472,7 @@
 				BFC1504A191F7EFE003C439D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFC1504B191F7EFE003C439D /* Build configuration list for PBXNativeTarget "ReproSurveyTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +481,7 @@
 				BFC1504D191F7EFE003C439D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

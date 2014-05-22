@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFBBB260192E3EB3008C7A56 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBBB25D192E3EB3008C7A56 /* AWSRuntime.framework */; };
+		BFBBB261192E3EB3008C7A56 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBBB25E192E3EB3008C7A56 /* AWSS3.framework */; };
+		BFBBB262192E3EB3008C7A56 /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBBB25F192E3EB3008C7A56 /* AWSSQS.framework */; };
+		BFBBB264192E3EBA008C7A56 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBBB263192E3EBA008C7A56 /* Repro.framework */; };
 		BFC14FC7191F7D15003C439D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC14FC6191F7D15003C439D /* Foundation.framework */; };
 		BFC14FC9191F7D15003C439D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC14FC8191F7D15003C439D /* CoreGraphics.framework */; };
 		BFC14FCB191F7D15003C439D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC14FCA191F7D15003C439D /* UIKit.framework */; };
@@ -22,10 +26,6 @@
 		BFC14FEB191F7D15003C439D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC14FCA191F7D15003C439D /* UIKit.framework */; };
 		BFC14FF3191F7D15003C439D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC14FF1191F7D15003C439D /* InfoPlist.strings */; };
 		BFC14FF5191F7D15003C439D /* ReproInsightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC14FF4191F7D15003C439D /* ReproInsightTests.m */; };
-		BFC15002191F7D5A003C439D /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC14FFE191F7D5A003C439D /* AWSRuntime.framework */; };
-		BFC15003191F7D5A003C439D /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC14FFF191F7D5A003C439D /* AWSS3.framework */; };
-		BFC15004191F7D5A003C439D /* AWSSQS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC15000191F7D5A003C439D /* AWSSQS.framework */; };
-		BFC15005191F7D5A003C439D /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC15001191F7D5A003C439D /* Repro.framework */; };
 		BFC15007191F7D6B003C439D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC15006191F7D6B003C439D /* AVFoundation.framework */; };
 		BFC15009191F7D72003C439D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC15008191F7D72003C439D /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFBBB25D192E3EB3008C7A56 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRuntime.framework; path = ../vendor/AWSRuntime.framework; sourceTree = "<group>"; };
+		BFBBB25E192E3EB3008C7A56 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = ../vendor/AWSS3.framework; sourceTree = "<group>"; };
+		BFBBB25F192E3EB3008C7A56 /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSQS.framework; path = ../vendor/AWSSQS.framework; sourceTree = "<group>"; };
+		BFBBB263192E3EBA008C7A56 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = ../../Repro.framework; sourceTree = "<group>"; };
 		BFC14FC3191F7D15003C439D /* ReproInsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproInsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC14FC6191F7D15003C439D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFC14FC8191F7D15003C439D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +66,6 @@
 		BFC14FF0191F7D15003C439D /* ReproInsightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReproInsightTests-Info.plist"; sourceTree = "<group>"; };
 		BFC14FF2191F7D15003C439D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFC14FF4191F7D15003C439D /* ReproInsightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproInsightTests.m; sourceTree = "<group>"; };
-		BFC14FFE191F7D5A003C439D /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRuntime.framework; path = vendor/AWSRuntime.framework; sourceTree = "<group>"; };
-		BFC14FFF191F7D5A003C439D /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = vendor/AWSS3.framework; sourceTree = "<group>"; };
-		BFC15000191F7D5A003C439D /* AWSSQS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSQS.framework; path = vendor/AWSSQS.framework; sourceTree = "<group>"; };
-		BFC15001191F7D5A003C439D /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = vendor/Repro.framework; sourceTree = "<group>"; };
 		BFC15006191F7D6B003C439D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BFC15008191F7D72003C439D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -78,12 +78,12 @@
 				BFC15009191F7D72003C439D /* CoreMedia.framework in Frameworks */,
 				BFC15007191F7D6B003C439D /* AVFoundation.framework in Frameworks */,
 				BFC14FC9191F7D15003C439D /* CoreGraphics.framework in Frameworks */,
+				BFBBB261192E3EB3008C7A56 /* AWSS3.framework in Frameworks */,
+				BFBBB264192E3EBA008C7A56 /* Repro.framework in Frameworks */,
+				BFBBB260192E3EB3008C7A56 /* AWSRuntime.framework in Frameworks */,
 				BFC14FCB191F7D15003C439D /* UIKit.framework in Frameworks */,
-				BFC15005191F7D5A003C439D /* Repro.framework in Frameworks */,
+				BFBBB262192E3EB3008C7A56 /* AWSSQS.framework in Frameworks */,
 				BFC14FC7191F7D15003C439D /* Foundation.framework in Frameworks */,
-				BFC15002191F7D5A003C439D /* AWSRuntime.framework in Frameworks */,
-				BFC15004191F7D5A003C439D /* AWSSQS.framework in Frameworks */,
-				BFC15003191F7D5A003C439D /* AWSS3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,12 +122,12 @@
 		BFC14FC5191F7D15003C439D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFBBB263192E3EBA008C7A56 /* Repro.framework */,
+				BFBBB25D192E3EB3008C7A56 /* AWSRuntime.framework */,
+				BFBBB25E192E3EB3008C7A56 /* AWSS3.framework */,
+				BFBBB25F192E3EB3008C7A56 /* AWSSQS.framework */,
 				BFC15008191F7D72003C439D /* CoreMedia.framework */,
 				BFC15006191F7D6B003C439D /* AVFoundation.framework */,
-				BFC14FFE191F7D5A003C439D /* AWSRuntime.framework */,
-				BFC14FFF191F7D5A003C439D /* AWSS3.framework */,
-				BFC15000191F7D5A003C439D /* AWSSQS.framework */,
-				BFC15001191F7D5A003C439D /* Repro.framework */,
 				BFC14FC6191F7D15003C439D /* Foundation.framework */,
 				BFC14FC8191F7D15003C439D /* CoreGraphics.framework */,
 				BFC14FCA191F7D15003C439D /* UIKit.framework */,
@@ -408,7 +408,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/vendor",
+					"$(SRCROOT)/../../",
+					"$(SRCROOT)/../vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReproInsight/ReproInsight-Prefix.pch";
@@ -429,7 +430,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/vendor",
+					"$(SRCROOT)/../../",
+					"$(SRCROOT)/../vendor",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReproInsight/ReproInsight-Prefix.pch";
@@ -502,6 +504,7 @@
 				BFC14FFA191F7D15003C439D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFC14FFB191F7D15003C439D /* Build configuration list for PBXNativeTarget "ReproInsightTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +513,7 @@
 				BFC14FFD191F7D15003C439D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
