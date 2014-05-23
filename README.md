@@ -32,6 +32,10 @@ it simply add the following line to your Podfile:
 
     pod "Repro"
 
+If you want edge version
+
+    pod "Repro", git: 'git@github.com:reproio/repro-ios-sdk.git'
+
 
 ## Manual Installation : ReproInsight
 
@@ -142,7 +146,7 @@ Repro, Inc.
 
 ## License
 
-Copyright Repro, Inc.
+(c) 2014 Repro Inc.
 
 
 

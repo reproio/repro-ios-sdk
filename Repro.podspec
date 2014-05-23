@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage          = 'http://repro.io/'
   s.license           = {
     type: 'Copyright',
-    text: 'Copyright (c) 2014 Repro, Inc.'
+    text: '(c) 2014 Repro Inc.'
   }
   s.author            = { 'Repro' => 'support@repro.io' }
   s.social_media_url  = 'https://twitter.com/reproio'
