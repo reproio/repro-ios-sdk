@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'Repro'
-  s.version           = '0.1.7'
+  s.version           = '0.1.8'
   s.summary           = 'Tracking User Experience function into your app.'
   s.homepage          = 'http://repro.io/'
   s.license           = {
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url  = 'https://twitter.com/reproio'
   s.source            = {
     :git => 'https://github.com/reproio/repro-ios-sdk.git',
-    :tag => '0.1.7'
+    :tag => '0.1.8'
   }
   s.documentation_url = 'https://github.com/reproio/repro-ios-sdk/wiki'
 
