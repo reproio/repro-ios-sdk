@@ -134,10 +134,21 @@ Import `<Repro/ReproSurvey.h>` and set `application:didFinishLaunchingWithOption
 Other Usage
 -----------
 
-Repro recording process control methods
+Masking View ( see [ReproPrivacy]() )
 
-```
-Under writing ...
+```objc
+#import <Repro/ReproInsight.h>
+
+...
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    [uiview_object_name rpris_masking];
+}
+
+[uiview_object rpris_masking];
 ```
 
 ## Author
