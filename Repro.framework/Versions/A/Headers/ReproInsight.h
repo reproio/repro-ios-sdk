@@ -22,3 +22,14 @@
 - (void)stopRecordingDidFailWithError:(NSError**)error;
 
 @end
+
+# pragma mark - UIView
+
+@interface UIView (RPRIS)
+
+@property (nonatomic, strong, readonly) NSNumber *rpris_mask;
+
+- (void)rpris_masking;
+- (BOOL)rpris_isPrivacy;
+
+@end
