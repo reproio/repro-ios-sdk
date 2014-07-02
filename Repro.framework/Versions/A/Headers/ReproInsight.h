@@ -15,6 +15,9 @@
 
 + (void)setupWithToken:(NSString *)token;
 + (id)sharedInstance;
++ (void)setUserAnnotation:(NSString *)userAnnotation;
++ (void)pause;
++ (void)resume;
 
 // control recorder
 - (void)configureWithToken:(NSString *)token didFailWithError:(NSError **)error;
