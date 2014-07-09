@@ -187,6 +187,8 @@ you can mask target UIView like this.
 
 ![privacy](assets/insight/privacy.png)
 
+### Automatic
+
 Just call UIView `rpris_masking` instance method
 
 ```objc
@@ -197,6 +199,22 @@ Just call UIView `rpris_masking` instance method
     [super viewDidLoad];
 
     [uiview_object rpris_masking];
+}
+```
+
+### Manual
+
+```objc
+#import <ReproInsight/ReproInsight.h>
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [ReproInsight addMaskingWithRect:uiview_object.frame WithKey:@"any_key"];
+}
+
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [ReproInsight removeMaskingWithKey:@"any_key"];
 }
 ```
 
