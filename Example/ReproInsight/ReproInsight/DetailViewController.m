@@ -7,9 +7,11 @@
 //
 
 #import "DetailViewController.h"
+#import <Repro/ReproInsight.h>
 
 @interface DetailViewController ()
 - (void)configureView;
+@property (strong, nonatomic) IBOutlet UILabel *detailLabel;
 @end
 
 @implementation DetailViewController
@@ -40,6 +42,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+
+    [self.detailLabel rpris_masking];
+    [ReproInsight track:@"Detail" properties:nil];
 }
 
 - (void)didReceiveMemoryWarning

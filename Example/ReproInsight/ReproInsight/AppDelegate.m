@@ -14,8 +14,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    
+
     [ReproInsight setupWithToken:@"YOUR_APP_TOKEN"];
+    [ReproInsight setUserAnnotation:@"user_2521312"];
 
     return YES;
 }

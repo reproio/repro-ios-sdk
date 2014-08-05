@@ -1,5 +1,17 @@
 # Repro CHANGELOG
 
+## 0.2.6
+
+Enhancement
+
+- Track custom event
+- Track orientation change
+
+Bug fix
+
+- Fix max recording length limitation
+- Fix time lag between events and movie
+
 ## 0.2.5
 
 - Some Bug fix

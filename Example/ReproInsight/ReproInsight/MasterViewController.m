@@ -7,8 +7,8 @@
 //
 
 #import "MasterViewController.h"
-
 #import "DetailViewController.h"
+#import <Repro/ReproInsight.h>
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -30,6 +30,8 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+
+    [ReproInsight track:@"Table" properties:@{@"status": @"loaded"}];
 }
 
 - (void)didReceiveMemoryWarning

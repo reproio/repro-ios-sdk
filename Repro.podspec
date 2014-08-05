@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'Repro'
-  s.version           = '0.2.5'
+  s.version           = '0.2.6'
   s.summary           = 'Tracking User Experience function into your app.'
   s.homepage          = 'http://repro.io/'
   s.license           = {
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url  = 'https://twitter.com/reproio'
   s.source            = {
     :git => 'https://github.com/reproio/repro-ios-sdk.git',
-    :tag => '0.2.5'
+    :tag => '0.2.6'
   }
   s.documentation_url = 'https://github.com/reproio/repro-ios-sdk/wiki'
 
@@ -26,5 +26,4 @@ Pod::Spec.new do |s|
   s.dependency 'AWSiOSSDK/SQS', '~> 1.7.1'
 
   s.xcconfig            = { 'OTHER_LDFLAGS' => '-ObjC -all_load'}
-  # s.vendored_frameworks = 'Repro.framework'
 end

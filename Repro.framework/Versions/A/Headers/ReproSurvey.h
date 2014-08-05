@@ -13,7 +13,7 @@
 + (void)setupWithToken:(NSString *)token;
 
 + (id)sharedInstance;
-- (void)loadConfigWithToken:(NSString *)token didFailWithError:(NSError**)error;
+- (void)configureWithToken:(NSString *)token didFailWithError:(NSError**)error;
 - (void)setupLocalNotification;
 - (void)startSurveyDidFailWithError:(NSError**)error;
 
