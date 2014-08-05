@@ -20,6 +20,7 @@
 + (void)resume;
 + (void)addMaskingWithRect:(CGRect)rect WithKey:(NSString*)key;
 + (void)removeMaskingWithKey:(NSString*)key;
++ (void)track:(NSString*)name properties:(NSDictionary*)properties;
 
 // control recorder
 - (void)configureWithToken:(NSString *)token didFailWithError:(NSError **)error;
