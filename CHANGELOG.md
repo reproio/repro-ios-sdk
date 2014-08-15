@@ -4,11 +4,11 @@
 
 Enhancement
 
-- Bug reporting function
+- Crash reporting
 
 Bug fix
 
-- Face cam on Recording restart process bug
+- Fix the bug on restart of face cam recording
 
 ## 0.2.6
 
