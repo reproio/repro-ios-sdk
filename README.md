@@ -105,12 +105,13 @@ visit here <http://doc.repro.io>
 
 We provide API about
 
-- [Masking](http://doc.repro.io/en/insight/other_usage/)
-  - [Automatic Masking UIView](http://doc.repro.io/en/insight/other_usage/)
-  - [Manual Masking Position](http://doc.repro.io/en/insight/other_usage/)
-- [Add user annotation](http://doc.repro.io/en/insight/other_usage/)
-- [Track custom event](http://doc.repro.io/en/insight/other_usage/)
-- [Pause / Resume](http://doc.repro.io/en/insight/other_usage/)
+- [Bug reporting](http://doc.repro.io/en/insight/api/)
+- [Masking](http://doc.repro.io/en/insight/api/)
+  - [Automatic Masking UIView](http://doc.repro.io/en/insight/api/)
+  - [Manual Masking Position](http://doc.repro.io/en/insight/api/)
+- [Add user annotation](http://doc.repro.io/en/insight/api/)
+- [Track custom event](http://doc.repro.io/en/insight/api/)
+- [Pause / Resume](http://doc.repro.io/en/insight/api/)
 
 ## Author
 

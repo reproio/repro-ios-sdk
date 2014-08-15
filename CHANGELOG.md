@@ -4,6 +4,16 @@
 
 Enhancement
 
+- Crash reporting
+
+Bug fix
+
+- Fix the bug on restart of face cam recording
+
+## 0.2.6
+
+Enhancement
+
 - Track custom event
 - Track orientation change
 

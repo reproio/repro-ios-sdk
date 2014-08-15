@@ -21,12 +21,14 @@
 + (void)addMaskingWithRect:(CGRect)rect WithKey:(NSString*)key;
 + (void)removeMaskingWithKey:(NSString*)key;
 + (void)track:(NSString*)name properties:(NSDictionary*)properties;
++ (void)enableCrashReporting;
++ (void)disableCrashReporting;
 
 // control recorder
 - (void)configureWithToken:(NSString *)token didFailWithError:(NSError **)error;
 - (void)startRecordingDidFailWithError:(NSError**)error;
 - (void)stopRecordingDidFailWithError:(NSError**)error;
-
+- (void)sendCrashReport:(NSException*)exception;
 @end
 
 # pragma mark - UIView
