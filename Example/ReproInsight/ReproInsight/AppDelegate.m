@@ -17,7 +17,7 @@
 
     [ReproInsight setupWithToken:@"YOUR_APP_TOKEN"];
     [ReproInsight setUserAnnotation:@"user_2521312"];
-
+    [ReproInsight enableCrashReporting];
     return YES;
 }
 							

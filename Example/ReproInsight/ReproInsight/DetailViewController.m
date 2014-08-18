@@ -22,7 +22,7 @@
 {
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
-        
+
         // Update the view.
         [self configureView];
     }
@@ -35,6 +35,23 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
+}
+
+- (IBAction)crash:(id)sender {
+    // Raise Exception to test crash reporting
+    NSException *anException;
+    NSDictionary *aUserInfo;
+    NSString *aLabel;
+    NSNumber *anOutput;
+    aLabel = @"The last output value:";
+    anOutput = [NSNumber numberWithLong:987654321];
+    aUserInfo = @{@"state": aLabel,
+                  @"output": anOutput
+                  };
+    anException = [NSException exceptionWithName:@"anException"
+                                          reason:@"A test exception with more data"
+                                        userInfo:aUserInfo];
+    [anException raise];
 }
 
 - (void)viewDidLoad
