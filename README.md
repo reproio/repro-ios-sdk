@@ -31,12 +31,12 @@ iPad   | >= iPad 4, iPad Air, iPad mini (Retina)
 
 Network | Work    | Annotation
 ------  | ----    | ----------
-~> 3G   | disable | 
-4G      | enable  | 
-LTE     | enable  | 
-Wifi    | enable  | 
+~> 3G   | disable |
+4G      | enable  |
+LTE     | enable  |
+Wifi    | enable  |
 3G/LTE  | enable  | When hidden status bar
-Unknown | disable | 
+Unknown | disable |
 
 ## Usage
 
@@ -45,11 +45,9 @@ To run the example project; clone the repo, and run `pod install` from the Examp
 ## Requirement Frameworks
 
 * AVFoundation.framework
-* AWSRuntime.framework
-* AWSS3.framework
-* AWSSQS.framework
 * CoreGraphics.framework
 * CoreMedia.framework
+* CoreVideo.framework
 * Repro.framework
 * UIKit.framework
 
@@ -92,12 +90,11 @@ If you want use Survey, import `<Repro/ReproSurvey.h>` and set `application:didF
 }
 ```
 
-## Installation with manual
+## Installation
 
-visit here <http://doc.repro.io>
+Visit here <http://doc.repro.io>
 
-- [Repro Insight - Manual Install](http://doc.repro.io/en/insight/install_with_manual/)
-- [Repro Survey  - Manual Install](http://doc.repro.io/en/survey/install_with_manual/)
+- [Install manually](http://doc.repro.io/getting-started/install-manually/)
 
 # Other Usage
 
@@ -105,13 +102,11 @@ visit here <http://doc.repro.io>
 
 We provide API about
 
-- [Bug reporting](http://doc.repro.io/en/insight/api/)
-- [Masking](http://doc.repro.io/en/insight/api/)
-  - [Automatic Masking UIView](http://doc.repro.io/en/insight/api/)
-  - [Manual Masking Position](http://doc.repro.io/en/insight/api/)
-- [Add user annotation](http://doc.repro.io/en/insight/api/)
-- [Track custom event](http://doc.repro.io/en/insight/api/)
-- [Pause / Resume](http://doc.repro.io/en/insight/api/)
+- [Masking](http://doc.repro.io/insight/masking/)
+- [Pause / Resume Recording](http://doc.repro.io/insight/screen-recording/)
+- [Add User ID](http://doc.repro.io/insight/user-id/)
+- [Track custom events](http://doc.repro.io/insight/track/)
+- [Crash reporting](http://doc.repro.io/insight/crash-reporting/)
 
 ## Author
 

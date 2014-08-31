@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/reproio/repro-ios-sdk.git',
     :tag => '0.2.8'
   }
-  s.documentation_url = 'https://github.com/reproio/repro-ios-sdk/wiki'
+  s.documentation_url = 'http://doc.repro.io'
 
   s.platform          = :ios
   s.requires_arc      = true
