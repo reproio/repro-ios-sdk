@@ -1,5 +1,19 @@
 # Repro CHANGELOG
 
+## 0.2.8
+
+Enhancements
+
+- Track events on UIWebView
+- Remove AWS modules
+- API change: setUserAnnotation -> setUserID
+
+Bug fix
+
+- Cannot mask visible View's component
+- Mask correctly while transition
+- Mask correctly while orientation changing
+
 ## 0.2.7
 
 Enhancement

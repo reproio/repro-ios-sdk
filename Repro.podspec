@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name              = 'Repro'
-  s.version           = '0.2.7'
-  s.summary           = 'Tracking User Experience function into your app.'
+  s.version           = '0.2.8'
+  s.summary           = 'Tracking & recording user behavior in your app.'
   s.homepage          = 'http://repro.io/'
   s.license           = {
     type: 'Copyright',
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url  = 'https://twitter.com/reproio'
   s.source            = {
     :git => 'https://github.com/reproio/repro-ios-sdk.git',
-    :tag => '0.2.7'
+    :tag => '0.2.8'
   }
   s.documentation_url = 'https://github.com/reproio/repro-ios-sdk/wiki'
 
@@ -20,10 +20,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Repro.framework/**/*.h'
   s.vendored_frameworks = 'Repro.framework'
-  s.frameworks          = 'AVFoundation', 'QuartzCore', 'CoreMedia', 'SystemConfiguration'
-  s.dependency 'AWSiOSSDK/Runtime', '~> 1.7.1'
-  s.dependency 'AWSiOSSDK/S3', '~> 1.7.1'
-  s.dependency 'AWSiOSSDK/SQS', '~> 1.7.1'
+  s.frameworks          = 'AVFoundation', 'QuartzCore', 'CoreMedia', 'CoreVideo'
 
   s.xcconfig            = { 'OTHER_LDFLAGS' => '-ObjC -all_load'}
 end
