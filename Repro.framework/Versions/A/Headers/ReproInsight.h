@@ -11,15 +11,16 @@
 @interface ReproInsight : NSObject
 
 @property (nonatomic, retain, readwrite) NSString *token;
-@property (nonatomic, assign, readonly) NSUInteger status;
+@property (nonatomic, assign, readonly) NSInteger status;
 
 + (void)setupWithToken:(NSString *)token;
 + (id)sharedInstance;
-+ (void)setUserAnnotation:(NSString *)userAnnotation;
++ (void)setUserID:(NSString *)userId;
 + (void)pause;
 + (void)resume;
 + (void)addMaskingWithRect:(CGRect)rect WithKey:(NSString*)key;
 + (void)removeMaskingWithKey:(NSString*)key;
++ (void)startWebViewTracking:(id)delegate;
 + (void)track:(NSString*)name properties:(NSDictionary*)properties;
 + (void)enableCrashReporting;
 + (void)disableCrashReporting;
@@ -27,7 +28,7 @@
 // control recorder
 - (void)configureWithToken:(NSString *)token didFailWithError:(NSError **)error;
 - (void)startRecordingDidFailWithError:(NSError**)error;
-- (void)stopRecordingDidFailWithError:(NSError**)error;
+- (BOOL)stopRecording:(NSError**)error;
 - (void)sendCrashReport:(NSException*)exception;
 @end
 
