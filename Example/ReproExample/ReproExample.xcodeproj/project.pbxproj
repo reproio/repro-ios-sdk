@@ -15,6 +15,7 @@
 		10BE277819EDACF3008F0914 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BE277719EDACF3008F0914 /* Images.xcassets */; };
 		10BE277B19EDACF3008F0914 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BE277919EDACF3008F0914 /* LaunchScreen.xib */; };
 		10BE278719EDACF3008F0914 /* ReproExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE278619EDACF3008F0914 /* ReproExampleTests.m */; };
+		10BE279319EDB188008F0914 /* repro_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE279219EDB188008F0914 /* repro_logo_black.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		10BE278019EDACF3008F0914 /* ReproExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BE278519EDACF3008F0914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE278619EDACF3008F0914 /* ReproExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproExampleTests.m; sourceTree = "<group>"; };
+		10BE279219EDB188008F0914 /* repro_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repro_logo_black.png; path = ../repro_logo_black.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				10BE277119EDACF3008F0914 /* SecondViewController.h */,
 				10BE277219EDACF3008F0914 /* SecondViewController.m */,
 				10BE277419EDACF3008F0914 /* Main.storyboard */,
+				10BE279219EDB188008F0914 /* repro_logo_black.png */,
 				10BE277719EDACF3008F0914 /* Images.xcassets */,
 				10BE277919EDACF3008F0914 /* LaunchScreen.xib */,
 				10BE276719EDACF3008F0914 /* Supporting Files */,
@@ -207,6 +210,7 @@
 				10BE277619EDACF3008F0914 /* Main.storyboard in Resources */,
 				10BE277B19EDACF3008F0914 /* LaunchScreen.xib in Resources */,
 				10BE277819EDACF3008F0914 /* Images.xcassets in Resources */,
+				10BE279319EDB188008F0914 /* repro_logo_black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +424,7 @@
 				10BE278C19EDACF3008F0914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10BE278D19EDACF3008F0914 /* Build configuration list for PBXNativeTarget "ReproExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +433,7 @@
 				10BE278F19EDACF3008F0914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
