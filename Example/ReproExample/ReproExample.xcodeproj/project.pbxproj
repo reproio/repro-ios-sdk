@@ -16,8 +16,7 @@
 		10BE277B19EDACF3008F0914 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BE277919EDACF3008F0914 /* LaunchScreen.xib */; };
 		10BE278719EDACF3008F0914 /* ReproExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE278619EDACF3008F0914 /* ReproExampleTests.m */; };
 		10BE279319EDB188008F0914 /* repro_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE279219EDB188008F0914 /* repro_logo_black.png */; };
-		627FC25719EFA243000BE794 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627FC25619EFA243000BE794 /* Repro.framework */; };
-		627FC25819EFA243000BE794 /* Repro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 627FC25619EFA243000BE794 /* Repro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		10BE27E119EFE8DE008F0914 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627FC25619EFA243000BE794 /* Repro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,20 +28,6 @@
 			remoteInfo = ReproExample;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		10BE27BE19EF7809008F0914 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				627FC25819EFA243000BE794 /* Repro.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		10BE276419EDACF3008F0914 /* ReproExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				627FC25719EFA243000BE794 /* Repro.framework in Frameworks */,
+				10BE27E119EFE8DE008F0914 /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +141,6 @@
 				10BE276019EDACF3008F0914 /* Sources */,
 				10BE276119EDACF3008F0914 /* Frameworks */,
 				10BE276219EDACF3008F0914 /* Resources */,
-				10BE27BE19EF7809008F0914 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
