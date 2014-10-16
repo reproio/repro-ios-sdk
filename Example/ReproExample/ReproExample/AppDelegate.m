@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Repro/Repro.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSSetUncaughtExceptionHandler(&exceptionHandler);
+
+    [Repro setup:@"YOUR_APP_TOKEN"];
+
+    [Repro setUserID:@"USER_ID"];
+    [Repro enableCrashReporting];
+    [Repro startRecording];
     return YES;
+}
+
+static void exceptionHandler(NSException *exception){
+    NSLog(@"ReproSample: Uncaught Exception: %@", [exception reason]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -7,9 +7,11 @@
 //
 
 #import "FirstViewController.h"
+#import <Repro/Repro.h>
 
 @interface FirstViewController ()
-
+@property (weak, nonatomic) IBOutlet UITextField *idField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @end
 
 @implementation FirstViewController
@@ -17,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    [Repro mask:_passwordField];
+    [Repro mask:_idField];
 }
 
 - (void)didReceiveMemoryWarning {

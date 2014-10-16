@@ -95,6 +95,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="idField" destination="nrM-CL-B67" id="Dq0-YL-OCn"/>
+                        <outlet property="passwordField" destination="MK2-Qt-fa3" id="DPh-SL-cQy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
