@@ -51,7 +51,7 @@ To run the example project; clone the repo, and run `pod install` from the Examp
 * Repro.framework
 * UIKit.framework
 
-## Installation with cocoapods
+## Integrate with cocoapods
 
 Repro is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
@@ -62,51 +62,30 @@ Edge version
 
     pod "Repro", git: 'git@github.com:reproio/repro-ios-sdk.git'
 
-### Add Script to AppDelegate.m
-
-If you want use Insight, import `<Repro/ReproInsight.h>` and set `application:didFinishLaunchingWithOptions`
-
-```
-#import <Repro/ReproInsight.h>
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    ...
-    [ReproInsight setupWithToken:@"YOUR_APP_TOKEN"];
-    ...
-}
-```
-
-If you want use Survey, import `<Repro/ReproSurvey.h>` and set `application:didFinishLaunchingWithOptions`
-
-```
-#import <Repro/ReproSurvey.h>
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    ...
-    [ReproInsight setupWithToken:@"YOUR_APP_TOKEN"];
-    ...
-}
-```
-
-## Installation
+## Integrate manually
 
 Visit here <http://doc.repro.io>
 
-- [Install manually](http://doc.repro.io/getting-started/install-manually/)
+- [Integrate manually](http://doc.repro.io/integration/native##integrate-manually)
+
+## Your first recording
+
+After succeeded to install, try your first recording!
+
+- [Your first recording](http://doc.repro.io/integration/native##your-first-recording)
 
 # Other Usage
 
-visit here <http://doc.repro.io>
+Read the SDK document for further information <http://doc.repro.io>
 
-We provide API about
+API
 
-- [Masking](http://doc.repro.io/insight/masking/)
-- [Pause / Resume Recording](http://doc.repro.io/insight/screen-recording/)
-- [Add User ID](http://doc.repro.io/insight/user-id/)
-- [Track custom events](http://doc.repro.io/insight/track/)
-- [Crash reporting](http://doc.repro.io/insight/crash-reporting/)
+- [Recording](http://doc.repro.io/ios/api/screen-recording/)
+- [Masking](http://doc.repro.io/ios/api/masking/)
+- [User ID](http://doc.repro.io/ios/api/user-id/)
+- [Track events](http://doc.repro.io/ios/api/track/)
+- [Crash reporting](http://doc.repro.io/ios/api/crash-reporting/)
+- [Survey](http://doc.repro.io/ios/api/survey/)
 
 ## Author
 
