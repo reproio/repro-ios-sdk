@@ -16,8 +16,8 @@
 		10BE277B19EDACF3008F0914 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BE277919EDACF3008F0914 /* LaunchScreen.xib */; };
 		10BE278719EDACF3008F0914 /* ReproExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE278619EDACF3008F0914 /* ReproExampleTests.m */; };
 		10BE279319EDB188008F0914 /* repro_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE279219EDB188008F0914 /* repro_logo_black.png */; };
-		10BE27BC19EF7809008F0914 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BE27BA19EF77A3008F0914 /* Repro.framework */; };
-		10BE27BD19EF7809008F0914 /* Repro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 10BE27BA19EF77A3008F0914 /* Repro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		627FC25719EFA243000BE794 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627FC25619EFA243000BE794 /* Repro.framework */; };
+		627FC25819EFA243000BE794 /* Repro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 627FC25619EFA243000BE794 /* Repro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				10BE27BD19EF7809008F0914 /* Repro.framework in Embed Frameworks */,
+				627FC25819EFA243000BE794 /* Repro.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 		10BE278519EDACF3008F0914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE278619EDACF3008F0914 /* ReproExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproExampleTests.m; sourceTree = "<group>"; };
 		10BE279219EDB188008F0914 /* repro_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repro_logo_black.png; path = ../repro_logo_black.png; sourceTree = "<group>"; };
-		10BE27BA19EF77A3008F0914 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Repro.framework; sourceTree = "<group>"; };
+		627FC25619EFA243000BE794 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = ../../Repro.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10BE27BC19EF7809008F0914 /* Repro.framework in Frameworks */,
+				627FC25719EFA243000BE794 /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +86,7 @@
 		10BE275B19EDACF3008F0914 = {
 			isa = PBXGroup;
 			children = (
+				627FC25619EFA243000BE794 /* Repro.framework */,
 				10BE276619EDACF3008F0914 /* ReproExample */,
 				10BE278319EDACF3008F0914 /* ReproExampleTests */,
 				10BE276519EDACF3008F0914 /* Products */,
@@ -114,7 +115,6 @@
 				10BE279219EDB188008F0914 /* repro_logo_black.png */,
 				10BE277719EDACF3008F0914 /* Images.xcassets */,
 				10BE277919EDACF3008F0914 /* LaunchScreen.xib */,
-				10BE27BA19EF77A3008F0914 /* Repro.framework */,
 				10BE276719EDACF3008F0914 /* Supporting Files */,
 			);
 			path = ReproExample;
@@ -378,6 +378,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
+					"/Users/jollyjoester_pro/Documents/github/repro-ios-sdk",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -392,6 +393,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
+					"/Users/jollyjoester_pro/Documents/github/repro-ios-sdk",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
