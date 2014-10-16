@@ -1,5 +1,17 @@
 # Repro CHANGELOG
 
+## 0.3.0
+
+Enhancements
+
+- Support iOS 8 & Xcode 6
+- Breaking API Changes
+  - Changed public header to `Repro.h`
+  - See the [doc](http://doc.repro.io) for further information about each API change
+- Separate Event tracking & recording
+  - Now you can start & stop recording anytime you need
+  - Event tracking will start automatically if you enable to Tracking on repro.io website
+
 ## 0.2.8
 
 Enhancements
