@@ -378,9 +378,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
-					"/Users/jollyjoester_pro/Documents/github/repro-ios-sdk",
+					"$(PROJECT_DIR)/../../",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -393,9 +394,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
-					"/Users/jollyjoester_pro/Documents/github/repro-ios-sdk",
+					"$(PROJECT_DIR)/../../",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
