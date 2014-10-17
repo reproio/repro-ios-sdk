@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101A9FDF19F0C0EE0047DC09 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101A9FDE19F0C0EE0047DC09 /* Repro.framework */; };
 		10BE276A19EDACF3008F0914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276919EDACF3008F0914 /* main.m */; };
 		10BE276D19EDACF3008F0914 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276C19EDACF3008F0914 /* AppDelegate.m */; };
 		10BE277019EDACF3008F0914 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276F19EDACF3008F0914 /* FirstViewController.m */; };
@@ -16,7 +17,6 @@
 		10BE277B19EDACF3008F0914 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BE277919EDACF3008F0914 /* LaunchScreen.xib */; };
 		10BE278719EDACF3008F0914 /* ReproExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE278619EDACF3008F0914 /* ReproExampleTests.m */; };
 		10BE279319EDB188008F0914 /* repro_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE279219EDB188008F0914 /* repro_logo_black.png */; };
-		10BE27E119EFE8DE008F0914 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627FC25619EFA243000BE794 /* Repro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		101A9FDE19F0C0EE0047DC09 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = ../../Repro.framework; sourceTree = "<group>"; };
 		10BE276419EDACF3008F0914 /* ReproExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BE276819EDACF3008F0914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE276919EDACF3008F0914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		10BE278519EDACF3008F0914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE278619EDACF3008F0914 /* ReproExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproExampleTests.m; sourceTree = "<group>"; };
 		10BE279219EDB188008F0914 /* repro_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repro_logo_black.png; path = ../repro_logo_black.png; sourceTree = "<group>"; };
-		627FC25619EFA243000BE794 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = ../../Repro.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10BE27E119EFE8DE008F0914 /* Repro.framework in Frameworks */,
+				101A9FDF19F0C0EE0047DC09 /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 		10BE275B19EDACF3008F0914 = {
 			isa = PBXGroup;
 			children = (
-				627FC25619EFA243000BE794 /* Repro.framework */,
+				101A9FDE19F0C0EE0047DC09 /* Repro.framework */,
 				10BE276619EDACF3008F0914 /* ReproExample */,
 				10BE278319EDACF3008F0914 /* ReproExampleTests */,
 				10BE276519EDACF3008F0914 /* Products */,
@@ -367,6 +367,10 @@
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -383,6 +387,10 @@
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
