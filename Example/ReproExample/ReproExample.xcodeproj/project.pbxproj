@@ -363,7 +363,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
 					"$(PROJECT_DIR)/../../",
-					"/Volumes/Data/Projects/github.com/repro.io/repro-ios-sdk",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -384,7 +383,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
 					"$(PROJECT_DIR)/../../",
-					"/Volumes/Data/Projects/github.com/repro.io/repro-ios-sdk",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
