@@ -1,6 +1,12 @@
-# Repro CHANGELOG
+# 0.3.2
 
-## 0.3.0
+- Custom confirmation dialog
+
+# 0.3.1
+
+- Fix library link bug
+
+# 0.3.0
 
 Enhancements
 
@@ -12,7 +18,7 @@ Enhancements
   - Now you can start & stop recording anytime you need
   - Event tracking will start automatically if you enable to Tracking on repro.io website
 
-## 0.2.8
+# 0.2.8
 
 Enhancements
 
@@ -26,7 +32,7 @@ Bug fix
 - Mask correctly while transition
 - Mask correctly while orientation changing
 
-## 0.2.7
+# 0.2.7
 
 Enhancement
 
@@ -36,7 +42,7 @@ Bug fix
 
 - Fix the bug on restart of face cam recording
 
-## 0.2.6
+# 0.2.6
 
 Enhancement
 
@@ -48,26 +54,25 @@ Bug fix
 - Fix max recording length limitation
 - Fix time lag between events and movie
 
-## 0.2.5
+# 0.2.5
 
 - Some Bug fix
 
-## 0.2.4
+# 0.2.4
 
 - Implemented manual masking feature
 - Some Bug fix
 
-## 0.2.3
+# 0.2.3
 
 - Implemented Pause / Resume feature
 - Implemented User annotation feature
 - Some Bug fix
 
-## 0.2.2
+# 0.2.2
 
 - Bug fix
 
-## 0.1.8
+# 0.1.8
 
 release 0.1.8
-
