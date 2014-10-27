@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		106D7CE219F5504300C46259 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106D7CE119F5504300C46259 /* Repro.framework */; };
+		1056D24419FE765A005ECAF0 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1056D24319FE765A005ECAF0 /* Repro.framework */; };
 		10BE276A19EDACF3008F0914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276919EDACF3008F0914 /* main.m */; };
 		10BE276D19EDACF3008F0914 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276C19EDACF3008F0914 /* AppDelegate.m */; };
 		10BE277019EDACF3008F0914 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276F19EDACF3008F0914 /* FirstViewController.m */; };
@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		106D7CE119F5504300C46259 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = ../../Repro.framework; sourceTree = "<group>"; };
+		1056D24319FE765A005ECAF0 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = ../../Repro.framework; sourceTree = "<group>"; };
 		10BE276419EDACF3008F0914 /* ReproExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BE276819EDACF3008F0914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE276919EDACF3008F0914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106D7CE219F5504300C46259 /* Repro.framework in Frameworks */,
+				1056D24419FE765A005ECAF0 /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +71,7 @@
 		10BE275B19EDACF3008F0914 = {
 			isa = PBXGroup;
 			children = (
-				106D7CE119F5504300C46259 /* Repro.framework */,
+				1056D24319FE765A005ECAF0 /* Repro.framework */,
 				10BE276619EDACF3008F0914 /* ReproExample */,
 				10BE278319EDACF3008F0914 /* ReproExampleTests */,
 				10BE276519EDACF3008F0914 /* Products */,
@@ -311,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -347,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

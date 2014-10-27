@@ -1,3 +1,7 @@
+# 0.3.3
+
+- Fix a bug of face recording
+
 # 0.3.2
 
 - Custom confirmation dialog
