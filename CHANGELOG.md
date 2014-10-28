@@ -2,7 +2,7 @@
 
 - Fix some bugs for masking
   - Fix mask color
-  - Do not track touches while keyboard is opened
+  - Do not track touches while keyboard is opened for iOS 8
 
 # 0.3.3
 
