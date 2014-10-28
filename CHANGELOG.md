@@ -1,3 +1,9 @@
+# 0.3.4
+
+- Fix some bugs for masking
+  - Fix mask color
+  - Do not track touches while keyboard is opened
+
 # 0.3.3
 
 - Fix a bug of face recording
