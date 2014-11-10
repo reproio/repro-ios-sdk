@@ -1,3 +1,7 @@
+# 0.3.5
+
+- Fix crashing when touched
+
 # 0.3.4
 
 - Fix some bugs for masking
