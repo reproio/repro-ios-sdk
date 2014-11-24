@@ -23,13 +23,10 @@
     
     _webView.delegate = self;
     
-    NSURL *url = [NSURL URLWithString:@"https://repro.io/"];
+    NSURL *url = [NSURL URLWithString:@"http://cdn.repro.io.s3.amazonaws.com/index.html"];
     [_webView loadRequest:[NSURLRequest requestWithURL:url]];
-    
 }
 
-#pragma mark -
-#pragma mark WebView
 - (void)webViewDidStartLoad:(UIWebView*)webView {
     [_indicator startAnimating];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
