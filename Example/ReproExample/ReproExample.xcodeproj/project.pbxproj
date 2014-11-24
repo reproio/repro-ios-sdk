@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10A4566A19FFA164002BB423 /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A4566919FFA164002BB423 /* Repro.framework */; };
+		1015F7461A233F860093FF2C /* Repro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1015F7431A233F860093FF2C /* Repro.framework */; };
+		1015F7471A233F860093FF2C /* ReproSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1015F7451A233F860093FF2C /* ReproSDKResources.bundle */; };
 		10BE276A19EDACF3008F0914 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276919EDACF3008F0914 /* main.m */; };
 		10BE276D19EDACF3008F0914 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276C19EDACF3008F0914 /* AppDelegate.m */; };
 		10BE277019EDACF3008F0914 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE276F19EDACF3008F0914 /* FirstViewController.m */; };
@@ -30,7 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10A4566919FFA164002BB423 /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Repro.framework; path = ../../Repro.framework; sourceTree = "<group>"; };
+		1015F7431A233F860093FF2C /* Repro.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Repro.framework; sourceTree = "<group>"; };
+		1015F7451A233F860093FF2C /* ReproSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ReproSDKResources.bundle; sourceTree = "<group>"; };
 		10BE276419EDACF3008F0914 /* ReproExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BE276819EDACF3008F0914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE276919EDACF3008F0914 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10A4566A19FFA164002BB423 /* Repro.framework in Frameworks */,
+				1015F7461A233F860093FF2C /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +70,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1015F7421A233F860093FF2C /* Repro.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				1015F7431A233F860093FF2C /* Repro.framework */,
+				1015F7441A233F860093FF2C /* Resources */,
+			);
+			name = Repro.embeddedframework;
+			path = ../../Repro.embeddedframework;
+			sourceTree = "<group>";
+		};
+		1015F7441A233F860093FF2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1015F7451A233F860093FF2C /* ReproSDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		10BE275B19EDACF3008F0914 = {
 			isa = PBXGroup;
 			children = (
-				10A4566919FFA164002BB423 /* Repro.framework */,
+				1015F7421A233F860093FF2C /* Repro.embeddedframework */,
 				10BE276619EDACF3008F0914 /* ReproExample */,
 				10BE278319EDACF3008F0914 /* ReproExampleTests */,
 				10BE276519EDACF3008F0914 /* Products */,
@@ -213,6 +233,7 @@
 			files = (
 				10BE277619EDACF3008F0914 /* Main.storyboard in Resources */,
 				10BE277B19EDACF3008F0914 /* LaunchScreen.xib in Resources */,
+				1015F7471A233F860093FF2C /* ReproSDKResources.bundle in Resources */,
 				10BE277819EDACF3008F0914 /* Images.xcassets in Resources */,
 				10BE279319EDB188008F0914 /* repro_logo_black.png in Resources */,
 			);
@@ -362,7 +383,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
-					"$(PROJECT_DIR)/../../",
+					"$(PROJECT_DIR)/../../Repro.embeddedframework",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -382,7 +403,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ReproExample",
-					"$(PROJECT_DIR)/../../",
+					"$(PROJECT_DIR)/../../Repro.embeddedframework",
 				);
 				INFOPLIST_FILE = ReproExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;

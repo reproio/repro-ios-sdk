@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'Repro'
-  s.version           = '0.3.5'
+  s.version           = '0.3.6'
   s.summary           = 'Tracking & recording user behavior in your app.'
   s.homepage          = 'https://repro.io/'
   s.license           = {
@@ -18,8 +18,10 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   s.requires_arc      = true
 
-  s.public_header_files = 'Repro.framework/**/*.h'
-  s.vendored_frameworks = 'Repro.framework'
+  s.public_header_files = 'Repro.embeddedframework/Repro.framework/Headers/*.h'
+  s.vendored_frameworks = 'Repro.embeddedframework/Repro.framework'
+  s.resource            = 'Repro.embeddedframework/Resources/ReproSDKResources.bundle'
+
   s.frameworks          = 'AVFoundation', 'QuartzCore', 'CoreMedia', 'CoreVideo'
   s.xcconfig            = { 'OTHER_LDFLAGS' => '-ObjC -all_load'}
 end
