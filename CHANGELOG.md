@@ -1,3 +1,9 @@
+# 0.3.6
+
+- Usability Testing
+- Improves masking reliability
+- Improves reliability of survey API
+
 # 0.3.5
 
 - Fix crashing when touched
