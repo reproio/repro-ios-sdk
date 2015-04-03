@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name              = 'Repro'
   s.version           = '0.3.6'
-  s.summary           = 'Tracking & recording user behavior in your app.'
+  s.summary           = 'Track & record the real user's behavior'
   s.homepage          = 'https://repro.io/'
   s.license           = {
     type: 'Copyright',
-    text: '(c) 2014 Repro Inc.'
+    text: '(c) 2015 Repro Inc.'
   }
   s.author            = { 'Repro' => 'support@repro.io' }
   s.social_media_url  = 'https://twitter.com/reproio'
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.resource            = 'Repro.embeddedframework/Resources/ReproSDKResources.bundle'
 
   s.frameworks          = 'AVFoundation', 'QuartzCore', 'CoreMedia', 'CoreVideo'
-  s.xcconfig            = { 'OTHER_LDFLAGS' => '-ObjC -all_load'}
+  s.xcconfig            = { 'OTHER_LDFLAGS' => '-ObjC'}
 end
