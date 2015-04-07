@@ -14,6 +14,14 @@ FOUNDATION_EXPORT double ReproVersionNumber;
 //! Project version string for Repro.
 FOUNDATION_EXPORT const unsigned char ReproVersionString[];
 
+typedef NS_ENUM(NSInteger, RPRLogLevel) {
+    RPRLogLevelDebug,
+    RPRLogLevelInfo,
+    RPRLogLevelWarn,
+    RPRLogLevelError,
+    RPRLogLevelNone
+};
+
 @interface Repro : NSObject
 
 // Session (Initialization)
@@ -28,6 +36,7 @@ FOUNDATION_EXPORT const unsigned char ReproVersionString[];
 
 // Masking
 + (void)mask:(UIView *)view;
++ (void)unmask:(UIView *)view;
 + (void)maskWithRect:(CGRect)rect key:(NSString*)key;
 + (void)unmaskForKey:(NSString*)key;
 
@@ -45,14 +54,7 @@ FOUNDATION_EXPORT const unsigned char ReproVersionString[];
 // Usability Testing
 + (void)enableUsabilityTesting;
 
-@end
-
-# pragma mark - UIView
-
-@interface UIView (Repro)
-
-@property (nonatomic, readonly) BOOL rpr_shouldMask;
-
-- (void)rpr_mask;
+// Log
++ (void)setLogLevel:(RPRLogLevel)level;
 
 @end
