@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'Repro'
-  s.version           = '0.9.0-beta'
+  s.version           = '0.9.1-beta'
   s.summary           = 'Track & record the real user\'s behavior'
   s.homepage          = 'https://repro.io/'
   s.license           = {
