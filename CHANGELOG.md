@@ -1,6 +1,86 @@
+# 0.8.0 (2015/04/27)
+
+- Pause automatically when openURL is called
+- Limits pause duration to 2.5 min
+- Adds support for armv7s
+- Reduces uploading interval
+- Fixes crashing when fps is set to 1
+- Fixes crashing when rotating device while usabiliy testing
+- Fixes usability testing's next button not displayed
+
+# 0.4.7 (2015/04/02)
+
+- Bug fix
+	- Screen recording doesn't work during UsabilityTesting
+
+# 0.4.6 (2015/03/28)
+
+- Enables to track events in WKWebView
+- Improves usability testing
+	- Adjusts layout with landscape orientation
+- Improves configuration
+	- Retries configuration when it failed
+- Fixes some bugs of masking and recording
+
+# 0.4.5 (2015/03/05)
+
+- Improves recording performance
+
+# 0.4.4 (2015/02/27)
+
+- Bug fix
+
+# 0.4.3
+
+- Improve recording
+  - Adds pause/resume feature for face recording
+  - Reduces screen movie's file size
+  - Stops recording when received memory warning
+- Improve security
+  - Masks input field automatically
+  - Adds unmask API
+- Enables to set log level
+- Improves crash reporting
+  - Catches signals
+
+# 0.4.2
+
+- Improves reliability of file uploading
+
+# 0.4.1
+
+- Improves security
+  - Prohibits recording Camera Roll
+- Improves reliability of usability testing
+
+# 0.4.0
+
+- Improves reliability of screen recording
+- Improves reliability of usability testing
+
+# 0.3.9
+
+- Support Cordova
+- Support Cocos2d-x
+- Unsupport armv7s
+- Improves reliability of detecting device orientation
+
+# 0.3.8
+
+- Improves reliability of crash reporting
+- Improves reliability of survey
+
+# 0.3.7
+
+- Support armv7s
+- Fix build error of the apps depends on C++ libraries
+
 # 0.3.6
 
-- Usability Testing
+## Usability Testing
+
+- This release Adds Usability Testing feature
+    - For more detailed information, please visit: http://doc.repro.io/ios/api/usability-testing
 - Improves masking reliability
 - Improves reliability of survey API
 
