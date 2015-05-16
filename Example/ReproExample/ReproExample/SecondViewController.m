@@ -7,6 +7,7 @@
 //
 
 #import "SecondViewController.h"
+#import <Repro/Repro.h>
 
 @interface SecondViewController ()
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -25,6 +26,8 @@
     
     NSURL *url = [NSURL URLWithString:@"http://cdn.repro.io.s3.amazonaws.com/index.html"];
     [_webView loadRequest:[NSURLRequest requestWithURL:url]];
+    
+    [Repro startWebViewTracking:self];
 }
 
 - (void)webViewDidStartLoad:(UIWebView*)webView {

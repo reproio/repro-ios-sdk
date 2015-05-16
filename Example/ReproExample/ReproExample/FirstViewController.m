@@ -20,6 +20,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
+    _idField.delegate = self;
+    _passwordField.delegate = self;
+    
     [Repro mask:_passwordField];
     [Repro mask:_idField];
 }
@@ -27,6 +30,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 
 @end

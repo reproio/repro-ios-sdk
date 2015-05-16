@@ -1,3 +1,10 @@
+# 0.9.7 (2015/05/17)
+
+- Enables to pause screen recording while scrolling
+- Fixes screen recording while showing customized UIWindow
+- Fixes OS version to include patch version
+- Changes arrow mark's color of Usability testing view
+
 # 0.8.0 (2015/04/27)
 
 - Pause automatically when openURL is called
