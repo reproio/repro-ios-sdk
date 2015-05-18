@@ -5,9 +5,9 @@
 
 [Repro](https://repro.io) is a mobile analytics tool that lets you have much deeper understanding of mobile app users with play-by-play videos.
 
-## Integrate with cocoapods
+## Integrate with CocoaPods
 
-- [Integrate manually](http://doc.repro.io/ios/integration/native##install-with-cocoapods)
+- [Integrate with CocoaPods](http://doc.repro.io/ios/integration/native##install-with-cocoapods)
 
 ## Integrate manually
 
