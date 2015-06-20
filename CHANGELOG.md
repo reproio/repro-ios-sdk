@@ -1,3 +1,10 @@
+# 0.9.8 (2015/06/19)
+
+- Improves reliablity of recording:
+  - Fixes a bug where calling recording APIs in a series was causing incorrect behavior.
+  − Fixes automatic pause recording when opening web site
+- Fixes a bug where a session didn't work when `enableUsabilityTesting` was called but there is no available usability testing on admin page.
+
 # 0.9.7 (2015/05/17)
 
 - Enables to pause screen recording while scrolling
