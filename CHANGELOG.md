@@ -1,3 +1,7 @@
+# 0.9.11 (2015/06/26)
+
+- Fixes a bug which the session doesn't start when app takes much time to start
+
 # 0.9.8 (2015/06/19)
 
 - Improves reliablity of recording:
