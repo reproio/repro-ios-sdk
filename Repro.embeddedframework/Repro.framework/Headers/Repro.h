@@ -57,4 +57,7 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 // Log
 + (void)setLogLevel:(RPRLogLevel)level;
 
+// Integrations
++ (void)integrateRtoaster:(NSString *)accountID;
+
 @end
