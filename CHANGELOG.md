@@ -1,3 +1,7 @@
+# 0.10.4 (2015/07/20)
+
+- Push notification
+
 # 0.9.11 (2015/06/26)
 
 - Fixes a bug which the session doesn't start when app takes much time to start

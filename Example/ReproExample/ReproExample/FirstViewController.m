@@ -32,6 +32,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tappedLogin:(UIButton *)sender {
+    
+    [Repro track:@"Login tapped" properties:nil];
+    
+}
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     [textField resignFirstResponder];
