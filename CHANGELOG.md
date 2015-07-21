@@ -1,3 +1,7 @@
+# 0.10.4.1 (2015/07/21)
+
+- Hot fix for Push notification
+
 # 0.10.4 (2015/07/20)
 
 - Push notification
