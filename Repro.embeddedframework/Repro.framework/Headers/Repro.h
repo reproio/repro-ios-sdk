@@ -60,4 +60,10 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)setPushDeviceToken:(NSData *)pushDeviceToken;
 + (void)setPushDeviceTokenString:(NSString *)pushDeviceToken;
 
+// In App Message
++ (void)disableInAppMessageOnActive;
++ (void)showInAppMessage;
+
++ (void)integrateRtoaster:(NSString *)accountID;
+
 @end

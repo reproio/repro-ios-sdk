@@ -10,4 +10,9 @@ This product includes 'RSSwizzle' (https://github.com/rabovik/RSSwizzle), which 
 
 ----------------------------------------------------------------
 
+This product includes a part of 'Mixpanel iOS SDK' (https://github.com/mixpanel/mixpanel-iphone), which is released under the following license(s):
+    Apatch 2 <http://opensource.org/licenses/Apache-2.0>
+
+----------------------------------------------------------------
+
 All other components of this product are: Copyright (c) 2014 Repro, Inc. All rights reserved.

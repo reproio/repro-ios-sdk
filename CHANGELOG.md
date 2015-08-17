@@ -1,3 +1,10 @@
+# 1.0.5 (2015/08/17)
+
+- In-app message
+- Remove iOS 6 support
+- Remove dependency to `-ObjC` linker flag
+- Fix the bug of recorability control while scrolling
+
 # 0.10.4.1 (2015/07/21)
 
 - Hot fix for Push notification
