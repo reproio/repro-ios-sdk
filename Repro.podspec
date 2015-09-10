@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Repro.embeddedframework/Repro.framework'
   s.resource            = 'Repro.embeddedframework/Resources/ReproSDKResources.bundle'
 
-  s.frameworks          = 'AVFoundation', 'QuartzCore', 'CoreMedia', 'CoreVideo'
+  s.frameworks          = 'AVFoundation', 'QuartzCore', 'CoreMedia', 'CoreVideo', 'Security'
   s.xcconfig            = { 'OTHER_LDFLAGS' => '-ObjC'}
 end
