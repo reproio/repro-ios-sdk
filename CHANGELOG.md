@@ -1,3 +1,9 @@
+# 1.2.10.1 (2015/09/10)
+
+## Hotfix
+
+- Fixes the bug where uploading the app to AppStore fails because of ReproSDKResources
+
 # 1.2.10 (2015/09/08)
 
 ## Feature
