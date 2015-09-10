@@ -94,3 +94,12 @@ void ReproCpp::survey() {
 void ReproCpp::enableUsabilityTesting() {
     [Repro enableUsabilityTesting];
 }
+
+// In App Message
+void ReproCpp::disableInAppMessageOnActive() {
+    [Repro disableInAppMessageOnActive];
+}
+
+void ReproCpp::showInAppMessage() {
+    [Repro showInAppMessage];
+}

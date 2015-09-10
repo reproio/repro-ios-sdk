@@ -1,3 +1,28 @@
+# 1.2.10 (2015/09/08)
+
+## Feature
+
+- iOS 9 support
+  - Bitcode
+    - Enables Bitcode
+  - ATS
+    - Fix uploading
+    - **Attention:** In-app message and web view tracking won't work on iOS 9 until Oct 1 if your app enables ATS.
+  - Split screen multitasking
+    - Fix screen recording
+
+## Improvement
+
+- Major improvement for uploading
+  - **Attention:** MobileCoreServices.framework is required from this version
+- In-app message API for c++ application
+
+## Bug Fix
+
+- Fixes the bug where in-app message sometimes not displaying
+- Fixes the bug where it sometimes fails to track touches
+- Fixes the bug where Usability testing doesn't work for some localization settings.
+
 # 1.0.5 (2015/08/17)
 
 - In-app message

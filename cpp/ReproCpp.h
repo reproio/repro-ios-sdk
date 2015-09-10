@@ -44,6 +44,10 @@ public:
     // Usablity Testing
     static void enableUsabilityTesting();
     
+    // In App Message
+    static void disableInAppMessageOnActive();
+    static void showInAppMessage();
+    
 };
 
 #endif
