@@ -1,3 +1,17 @@
+# 1.3.10 (2015/09/29)
+
+## Improvemets
+
+- Fix time offset of tracking data when the device's clock is not correct
+- Make a user ID perisistant
+
+## Bug Fixes
+
+- Fix the bug crashing where when tracking is disabled or reached data point limitation
+- Suppress warning messages when the app is uploaded to AppStore
+- Fix the bug where recording is paused unexpectedly when using deep linking
+- Suppress 101 error while web view tracking
+
 # 1.2.10.1 (2015/09/10)
 
 ## Hotfix
