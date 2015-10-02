@@ -1,3 +1,10 @@
+# 1.3.13 (2015/10/02)
+
+## Bug Fixes
+
+- Fix build failure where the app is build for simulator by Xcode 6
+- Reduce possibility of crashing while recording
+
 # 1.3.10 (2015/09/29)
 
 ## Improvemets
