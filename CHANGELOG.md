@@ -1,3 +1,9 @@
+# 1.3.14 (2015/10/06)
+
+## Bug Fix
+
+- Fix the bug where event properties are not saved.
+
 # 1.3.13 (2015/10/02)
 
 ## Bug Fixes
