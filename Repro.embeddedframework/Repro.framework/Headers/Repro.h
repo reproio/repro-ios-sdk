@@ -47,9 +47,6 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 // Crash reporting
 + (void)enableCrashReporting;
 
-// Survey
-+ (void)survey:(NSError**)error;
-
 // Usability Testing
 + (void)enableUsabilityTesting;
 
@@ -64,6 +61,10 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)disableInAppMessageOnActive;
 + (void)showInAppMessage;
 
+// Integrations
 + (void)integrateRtoaster:(NSString *)accountID;
+
+// Deprecated
++ (void)survey:(NSError**)error __attribute__ ((deprecated));
 
 @end

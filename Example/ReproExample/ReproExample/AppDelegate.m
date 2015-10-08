@@ -29,7 +29,7 @@
 }
 
 static void exceptionHandler(NSException *exception){
-    NSLog(@"ReproSample: Uncaught Exception: %@", [exception reason]);
+    NSLog(@"ReproDev: Uncaught Exception: %@", [exception reason]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

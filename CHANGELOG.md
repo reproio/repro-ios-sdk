@@ -1,3 +1,11 @@
+# 1.3.15 (2015/10/09)
+
+## Support iOS 6 Again
+
+### Notice
+
+- Recording and usability testing are not supported on iOS 6
+
 # 1.3.14 (2015/10/06)
 
 ## Bug Fix
