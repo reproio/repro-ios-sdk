@@ -1,3 +1,13 @@
+# 1.3.19 (2015/10/21)
+
+## Improvements
+
+- Removed Reachability
+  - Removed the dependencty to Reachability due to some bugs being reported on iOS 9.
+  - **Attention:** Instead of using Reachability, Repro SDK now depends on `CoreTelephony.framework`. Don't forget to add it to Linked Frameworks and Libraries!
+- Load Web View Tracker from SDK
+  - Changed to load event tracker for web view (JavaScript) within SDK in order to prevent causing unintentiional access to `repro://`.
+
 # 1.3.15 (2015/10/09)
 
 ## Support iOS 6 Again
