@@ -1,3 +1,10 @@
+# 1.3.23 (2015/11/2)
+
+## Bug fixes
+
+- Fix the bug where it rarely crashes right after the app goes to the background.
+- Fix the bug where session is sometimes not uploded on iOS 6.
+
 # 1.3.19 (2015/10/21)
 
 ## Improvements
@@ -38,7 +45,7 @@
 
 ## Bug Fixes
 
-- Fix the bug crashing where when tracking is disabled or reached data point limitation
+- Fix crashing when tracking is disabled or reached data point limitation
 - Suppress warning messages when the app is uploaded to AppStore
 - Fix the bug where recording is paused unexpectedly when using deep linking
 - Suppress 101 error while web view tracking
