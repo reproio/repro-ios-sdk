@@ -18,6 +18,12 @@
 		10BE277B19EDACF3008F0914 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10BE277919EDACF3008F0914 /* LaunchScreen.xib */; };
 		10BE278719EDACF3008F0914 /* ReproExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BE278619EDACF3008F0914 /* ReproExampleTests.m */; };
 		10BE279319EDB188008F0914 /* repro_logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 10BE279219EDB188008F0914 /* repro_logo_black.png */; };
+		10E922401BEE0D8F0091AAE2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E9223F1BEE0D8F0091AAE2 /* CoreTelephony.framework */; };
+		10E922421BEE0D970091AAE2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E922411BEE0D970091AAE2 /* MobileCoreServices.framework */; };
+		10E922441BEE0DA50091AAE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E922431BEE0DA50091AAE2 /* SystemConfiguration.framework */; };
+		10E922461BEE0DB20091AAE2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E922451BEE0DB20091AAE2 /* Security.framework */; };
+		10E922481BEE0DBD0091AAE2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E922471BEE0DBD0091AAE2 /* AVFoundation.framework */; };
+		10E9224A1BEE0DDB0091AAE2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E922491BEE0DDB0091AAE2 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		10BE278519EDACF3008F0914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10BE278619EDACF3008F0914 /* ReproExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproExampleTests.m; sourceTree = "<group>"; };
 		10BE279219EDB188008F0914 /* repro_logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repro_logo_black.png; path = ../repro_logo_black.png; sourceTree = "<group>"; };
+		10E9223F1BEE0D8F0091AAE2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		10E922411BEE0D970091AAE2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		10E922431BEE0DA50091AAE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		10E922451BEE0DB20091AAE2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		10E922471BEE0DBD0091AAE2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		10E922491BEE0DDB0091AAE2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E9224A1BEE0DDB0091AAE2 /* CoreMedia.framework in Frameworks */,
+				10E922481BEE0DBD0091AAE2 /* AVFoundation.framework in Frameworks */,
+				10E922461BEE0DB20091AAE2 /* Security.framework in Frameworks */,
+				10E922441BEE0DA50091AAE2 /* SystemConfiguration.framework in Frameworks */,
+				10E922421BEE0D970091AAE2 /* MobileCoreServices.framework in Frameworks */,
+				10E922401BEE0D8F0091AAE2 /* CoreTelephony.framework in Frameworks */,
 				1015F7461A233F860093FF2C /* Repro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +109,12 @@
 		10BE275B19EDACF3008F0914 = {
 			isa = PBXGroup;
 			children = (
+				10E922491BEE0DDB0091AAE2 /* CoreMedia.framework */,
+				10E922471BEE0DBD0091AAE2 /* AVFoundation.framework */,
+				10E922451BEE0DB20091AAE2 /* Security.framework */,
+				10E922431BEE0DA50091AAE2 /* SystemConfiguration.framework */,
+				10E922411BEE0D970091AAE2 /* MobileCoreServices.framework */,
+				10E9223F1BEE0D8F0091AAE2 /* CoreTelephony.framework */,
 				1015F7421A233F860093FF2C /* Repro.embeddedframework */,
 				10BE276619EDACF3008F0914 /* ReproExample */,
 				10BE278319EDACF3008F0914 /* ReproExampleTests */,
