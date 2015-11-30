@@ -22,7 +22,7 @@
 
     [Repro setup:@"YOUR_APP_TOKEN"];
 
-    [Repro setUserID:@"foo@example.com"];
+    [Repro setUserID:@"USER_ID"];
     [Repro enableCrashReporting];
     [Repro startRecording];
     return YES;

@@ -1,19 +1,31 @@
+# 1.4.0 (2015/11/30)
+
+## User Profiles
+
+- You can segment the group of users with these profiles when sending push notifications or in-app messages by setting user profiles. [See the doc for more details](http://docs.repro.io/en/api/user-profile.html)
+
+## Bug Fixes
+
+- Fixes unintentional automatic event tracking
+- Fixes potential crashes when stopping session
+- Fixes the bug where a session occasionally starts even if Repro is not activated on the dashboard
+
 # 1.3.23 (2015/11/2)
 
 ## Bug fixes
 
 - Fix the bug where it rarely crashes right after the app goes to the background.
-- Fix the bug where session is sometimes not uploded on iOS 6.
+- Fix the bug where session is sometimes not uploaded on iOS 6.
 
 # 1.3.19 (2015/10/21)
 
 ## Improvements
 
 - Removed Reachability
-  - Removed the dependencty to Reachability due to some bugs being reported on iOS 9.
+  - Removed the dependency to Reachability due to some bugs being reported on iOS 9.
   - **Attention:** Instead of using Reachability, Repro SDK now depends on `CoreTelephony.framework`. Don't forget to add it to Linked Frameworks and Libraries!
 - Load Web View Tracker from SDK
-  - Changed to load event tracker for web view (JavaScript) within SDK in order to prevent causing unintentiional access to `repro://`.
+  - Changed to load event tracker for web view (JavaScript) within SDK in order to prevent causing unintentional access to `repro://`.
 
 # 1.3.15 (2015/10/09)
 
@@ -38,10 +50,10 @@
 
 # 1.3.10 (2015/09/29)
 
-## Improvemets
+## Improvements
 
 - Fix time offset of tracking data when the device's clock is not correct
-- Make a user ID perisistant
+- Make a user ID persistent
 
 ## Bug Fixes
 
@@ -86,7 +98,7 @@
 - In-app message
 - Remove iOS 6 support
 - Remove dependency to `-ObjC` linker flag
-- Fix the bug of recorability control while scrolling
+- Fix the bug of recordability control while scrolling
 
 # 0.10.4.1 (2015/07/21)
 
@@ -102,7 +114,7 @@
 
 # 0.9.8 (2015/06/19)
 
-- Improves reliablity of recording:
+- Improves reliability of recording:
   - Fixes a bug where calling recording APIs in a series was causing incorrect behavior.
   − Fixes automatic pause recording when opening web site
 - Fixes a bug where a session didn't work when `enableUsabilityTesting` was called but there is no available usability testing on admin page.
@@ -121,7 +133,7 @@
 - Adds support for armv7s
 - Reduces uploading interval
 - Fixes crashing when fps is set to 1
-- Fixes crashing when rotating device while usabiliy testing
+- Fixes crashing when rotating device while usability testing
 - Fixes usability testing's next button not displayed
 
 # 0.4.7 (2015/04/02)

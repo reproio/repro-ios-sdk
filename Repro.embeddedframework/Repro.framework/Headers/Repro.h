@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RPRUser.h"
 
 //! Project version number for Repro.
 FOUNDATION_EXPORT double ReproVersionNumber;
@@ -27,6 +28,15 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 // Session (Initialization)
 + (void)setup:(NSString *)token;
 
+// User profile
++ (void)setUserID:(NSString *)userID;
++ (void)setUserProfile:(NSString *)value forKey:(NSString *)key;
++ (void)setUserProfile:(NSDictionary *)profile;
+
+// Event tracking
++ (void)track:(NSString*)name properties:(NSDictionary*)properties;
++ (void)startWebViewTracking:(id)delegate;
+
 // Recording
 + (void)startRecording;
 + (void)stopRecording;
@@ -38,11 +48,6 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)unmask:(UIView *)view;
 + (void)maskWithRect:(CGRect)rect key:(NSString*)key;
 + (void)unmaskForKey:(NSString*)key;
-
-// Event tracking
-+ (void)setUserID:(NSString *)userID;
-+ (void)track:(NSString*)name properties:(NSDictionary*)properties;
-+ (void)startWebViewTracking:(id)delegate;
 
 // Crash reporting
 + (void)enableCrashReporting;
