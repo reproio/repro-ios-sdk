@@ -1,3 +1,19 @@
+# 1.4.9 (2015/12/12)
+
+## Enhancements
+
+- Supports landscape mode for in-app message
+- Enables to use large size image for in-app message
+- Adds user profile api for c++ app
+
+## Bug Fixes
+
+- Enables to use Japanese texts in CTA of in-app message
+
+## Deprecated
+
+- Usability Testing is deprecated
+
 # 1.4.0 (2015/11/30)
 
 ## User Profiles

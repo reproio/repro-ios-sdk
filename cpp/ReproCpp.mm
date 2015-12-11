@@ -72,6 +72,21 @@ void ReproCpp::setUserID(const char* userId) {
     [Repro setUserID:convertCStringToNSString(userId)];
 }
 
+void ReproCpp::setUserProfile(const char* key, const char* value) {
+    [Repro setUserProfile:convertCStringToNSString(value) forKey:convertCStringToNSString(key)];
+}
+
+void ReproCpp::setUserProfile(const std::map<std::string, std::string> &profile) {
+    std::map<std::string, std::string>::const_iterator iter;
+    NSMutableDictionary *dict = nil;
+    for (iter = profile.begin(); iter != profile.end(); iter++) {
+        NSString *key = [NSString stringWithUTF8String:iter->first.c_str()];
+        NSString *value = [NSString stringWithUTF8String:iter->second.c_str()];
+        dict[key] = value;
+    }
+    [Repro setUserProfile:[NSDictionary dictionaryWithDictionary:dict]];
+}
+
 void ReproCpp::track(const char* eventName) {
     [Repro track:convertCStringToNSString(eventName) properties:nil];
 }
@@ -82,17 +97,6 @@ void ReproCpp::trackWithProperties(const char* eventName, const char* jsonDictio
 
 void ReproCpp::enableCrashReporting() {
     [Repro enableCrashReporting];
-}
-
-// Survey
-void ReproCpp::survey() {
-    NSError *error = nil;
-    [Repro survey:&error];
-}
-
-// Usablity Testing
-void ReproCpp::enableUsabilityTesting() {
-    [Repro enableUsabilityTesting];
 }
 
 // In App Message

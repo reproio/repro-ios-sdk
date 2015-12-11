@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RPRUser.h"
 
 //! Project version number for Repro.
 FOUNDATION_EXPORT double ReproVersionNumber;
@@ -52,9 +51,6 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 // Crash reporting
 + (void)enableCrashReporting;
 
-// Usability Testing
-+ (void)enableUsabilityTesting;
-
 // Log
 + (void)setLogLevel:(RPRLogLevel)level;
 
@@ -70,6 +66,7 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)integrateRtoaster:(NSString *)accountID;
 
 // Deprecated
++ (void)enableUsabilityTesting __attribute__ ((deprecated));
 + (void)survey:(NSError**)error __attribute__ ((deprecated));
 
 @end
