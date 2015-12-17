@@ -7,12 +7,12 @@
     if (typeof name !== 'string' || name === '') {
       return;
     }
-    name = escape(name);
+    name = encodeURIComponent(name);
     result = '';
     if (typeof _props === 'object') {
       for (key in _props) {
         value = _props[key];
-        result += key + "=" + value + "&";
+        result += (encodeURIComponent(key)) + "=" + (encodeURIComponent(value)) + "&";
       }
       result = result.slice(0, result.length - 1);
     }
@@ -21,7 +21,6 @@
     } else {
       url = 'repro://' + name;
     }
-    console.log(url);
     bridge = document.getElementById('repro-insight-bridge');
     if (bridge) {
       return bridge.src = url;

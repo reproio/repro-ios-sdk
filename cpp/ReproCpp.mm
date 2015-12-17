@@ -78,7 +78,7 @@ void ReproCpp::setUserProfile(const char* key, const char* value) {
 
 void ReproCpp::setUserProfile(const std::map<std::string, std::string> &profile) {
     std::map<std::string, std::string>::const_iterator iter;
-    NSMutableDictionary *dict = nil;
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
     for (iter = profile.begin(); iter != profile.end(); iter++) {
         NSString *key = [NSString stringWithUTF8String:iter->first.c_str()];
         NSString *value = [NSString stringWithUTF8String:iter->second.c_str()];

@@ -1,3 +1,11 @@
+# 1.4.14 (2015/12/17)
+
+## Bug Fixes
+
+- Fixes the issue that causes a crash if the app uses Apptimize
+- Fixes the bug of User Profile API for C++
+- Fixes event tracking API to suppport i18n
+
 # 1.4.9 (2015/12/12)
 
 ## Enhancements
