@@ -1,10 +1,22 @@
+# 1.4.22 (2016/1/3)
+
+## Improvements
+
+- Improves the reliability of uploading
+
+## Bug Fixes
+
+- Fixes the bug where screen recording fails when the user denies accessing to camera
+- Fixes the issue that causes a crash if the app uses Localytics
+- Fixes the bug of UI event tracking (private beta feature)
+
 # 1.4.14 (2015/12/17)
 
 ## Bug Fixes
 
 - Fixes the issue that causes a crash if the app uses Apptimize
 - Fixes the bug of User Profile API for C++
-- Fixes event tracking API to suppport i18n
+- Fixes event tracking API to support i18n
 
 # 1.4.9 (2015/12/12)
 
