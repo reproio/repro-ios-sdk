@@ -1,3 +1,9 @@
+# 1.4.27 (2016/02/11)
+
+## Changes
+
+- Limit event name length and event properties type
+
 # 1.4.22 (2016/1/3)
 
 ## Improvements
