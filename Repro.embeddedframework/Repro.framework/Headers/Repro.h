@@ -65,8 +65,4 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 // Integrations
 + (void)integrateRtoaster:(NSString *)accountID;
 
-// Deprecated
-+ (void)enableUsabilityTesting __attribute__ ((deprecated));
-+ (void)survey:(NSError**)error __attribute__ ((deprecated));
-
 @end

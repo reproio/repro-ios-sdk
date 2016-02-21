@@ -1,3 +1,15 @@
+# 1.5.1 (2016/02/21)
+
+## Improvements
+
+- New In-App Message
+  - Enables to choose Dialog type
+  - Enables to use two buttons in message
+
+## Changes
+
+- Removes deprecated APIs
+
 # 1.4.27 (2016/02/11)
 
 ## Changes
