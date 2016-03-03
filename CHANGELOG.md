@@ -1,3 +1,15 @@
+# 1.6.0 (2016/03/03)
+
+## Feature
+
+- Add Masking API for UIWebView & WKWebView
+
+## Bug Fixes
+
+- Fix build warning when integrating the SDK
+- Reduce the possibility to upload duplicate session data
+- Reduce the possibility of crashing while masking
+
 # 1.5.1 (2016/02/21)
 
 ## Improvements
