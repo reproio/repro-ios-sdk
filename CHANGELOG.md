@@ -1,3 +1,9 @@
+# 1.6.4 (2016/03/07)
+
+## Bug Fix
+
+- Fix a rare crash when crash reporter catches signals
+
 # 1.6.0 (2016/03/03)
 
 ## Feature
