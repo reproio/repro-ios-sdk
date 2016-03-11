@@ -1,3 +1,9 @@
+# 1.7.0 (2016/03/11)
+
+## Feature
+
+- Enable to show in-app message when tracking event
+
 # 1.6.4 (2016/03/07)
 
 ## Bug Fix
