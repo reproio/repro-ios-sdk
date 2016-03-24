@@ -1,3 +1,11 @@
+# 1.7.3 (2016/03/24)
+
+## Fixed
+
+- Fixed delay of session data uploads
+- Reduced the posibility to deliver in-app messages already shown
+- Fixed in-app message's default orientation for the app has no device orientation setting
+
 # 1.7.0 (2016/03/11)
 
 ## Feature
