@@ -1,9 +1,16 @@
+# 1.7.6 (2016/04/11)
+
+## Improvements
+
+- Improves the reliability of masking
+- Improves the reliability of event tracking
+
 # 1.7.3 (2016/03/24)
 
 ## Fixed
 
 - Fixed delay of session data uploads
-- Reduced the posibility to deliver in-app messages already shown
+- Reduced the possibility to deliver in-app messages already shown
 - Fixed in-app message's default orientation for the app has no device orientation setting
 
 # 1.7.0 (2016/03/11)
