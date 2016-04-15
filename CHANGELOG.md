@@ -1,3 +1,9 @@
+# 1.7.9 (2016/04/15)
+
+## Fixed
+
+- Reduced the possibility to deliver in-app messages already shown
+
 # 1.7.6 (2016/04/11)
 
 ## Improvements
