@@ -1,3 +1,15 @@
+# 1.7.15 (2016/05/17)
+
+## New
+
+- Add `getDeviceID` and `getUserID` API
+
+## Improved
+
+- Limit the length of user profile key and value
+- Track In-App Message ID even if the app was killed after showing the Message
+- Track CTA event if CTA URL is not specified
+
 # 1.7.9 (2016/04/15)
 
 ## Fixed
