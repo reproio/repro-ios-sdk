@@ -1,3 +1,9 @@
+# 1.7.16 (2016/05/18)
+
+## Fixed
+
+- Fix the crash when showing In-App Message with image
+
 # 1.7.15 (2016/05/17)
 
 ## New
