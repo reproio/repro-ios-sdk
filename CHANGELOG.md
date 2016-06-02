@@ -1,3 +1,9 @@
+# 1.7.19 (2016/06/01)
+
+## Changes
+
+- Deprecate `enableCrashReporting` API
+
 # 1.7.16 (2016/05/18)
 
 ## Fixed

@@ -51,7 +51,7 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)unmaskForKey:(NSString*)key;
 
 // Crash reporting
-+ (void)enableCrashReporting;
++ (void)enableCrashReporting __attribute__ ((deprecated));
 
 // Log
 + (void)setLogLevel:(RPRLogLevel)level;
