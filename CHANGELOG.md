@@ -1,3 +1,12 @@
+# 1.7.24 (2016/06/14)
+
+Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-1-7-24).
+
+## Improved
+
+- Show the progress dialog while loading the image of the In-App message
+- Track WebView event called from immediate function of JavaScript
+
 # 1.7.19 (2016/06/01)
 
 ## Changes
