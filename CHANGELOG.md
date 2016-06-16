@@ -1,6 +1,6 @@
-# 1.7.24 (2016/06/14)
+# 1.7.25 (2016/06/16)
 
-Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-1-7-24).
+**If you are using WebView tracking and/or masking, the special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-1-7-25).**
 
 ## Improved
 
