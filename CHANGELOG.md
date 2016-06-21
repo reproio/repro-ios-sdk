@@ -1,3 +1,15 @@
+# 1.7.30 (2016/06/21)
+
+## Improved
+
+- Clear the masks for UIWebView/WKWebView when it transit to the other page
+
+## Fixed
+
+- Fix the rare crash when writing log
+- Fix the bug where building the app is failed in some case
+- Fix the some layout issue of the In-App message
+
 # 1.7.25 (2016/06/16)
 
 **If you are using WebView tracking and/or masking, the special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-1-7-25).**
