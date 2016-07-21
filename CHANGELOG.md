@@ -1,3 +1,9 @@
+# 1.7.34 (2016/07/20)
+
+## Improved
+
+- Save the session and the movie file even if the application had been terminated by double-clicking the Home button and swiping up the application
+
 # 1.7.30 (2016/06/21)
 
 ## Improved
