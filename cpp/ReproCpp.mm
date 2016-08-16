@@ -16,6 +16,17 @@ static NSString* convertCStringToNSString(const char* string) {
     }
 }
 
+static const char* convertNSStringToCString(NSString* string) {
+    if (string) {
+        const char* src = [string UTF8String];
+        char* dst = (char*)malloc(strlen(src) + 1);
+        strcpy(dst, src);
+        return dst;
+    } else {
+        return "";
+    }
+}
+
 static NSDictionary* convertCStringJSONToNSDictionary(const char* string) {
     if (string) {
         NSString* json = convertCStringToNSString(string);
@@ -72,19 +83,28 @@ void ReproCpp::setUserID(const char* userId) {
     [Repro setUserID:convertCStringToNSString(userId)];
 }
 
-void ReproCpp::setUserProfile(const char* key, const char* value) {
-    [Repro setUserProfile:convertCStringToNSString(value) forKey:convertCStringToNSString(key)];
+const char* ReproCpp::getUserID() {
+  return convertNSStringToCString([Repro getUserID]);
 }
 
-void ReproCpp::setUserProfile(const std::map<std::string, std::string> &profile) {
-    std::map<std::string, std::string>::const_iterator iter;
-    NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
-    for (iter = profile.begin(); iter != profile.end(); iter++) {
-        NSString *key = [NSString stringWithUTF8String:iter->first.c_str()];
-        NSString *value = [NSString stringWithUTF8String:iter->second.c_str()];
-        dict[key] = value;
-    }
-    [Repro setUserProfile:[NSDictionary dictionaryWithDictionary:dict]];
+const char* ReproCpp::getDeviceID() {
+  return convertNSStringToCString([Repro getDeviceID]);
+}
+
+void ReproCpp::setStringUserProfile(const char* key, const char* value) {
+  [Repro setStringUserProfile:convertCStringToNSString(value) forKey:convertCStringToNSString(key)];
+}
+
+void ReproCpp::setIntUserProfile(const char* key, int value) {
+  [Repro setIntUserProfile:value forKey:convertCStringToNSString(key)];
+}
+
+void ReproCpp::setDoubleUserProfile(const char* key, double value) {
+  [Repro setDoubleUserProfile:value forKey:convertCStringToNSString(key)];
+}
+
+void ReproCpp::setDateUserProfile(const char* key, std::time_t value) {
+  [Repro setDateUserProfile:[NSDate dateWithTimeIntervalSince1970:value] forKey:convertCStringToNSString(key)];
 }
 
 void ReproCpp::track(const char* eventName) {

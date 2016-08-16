@@ -31,8 +31,10 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)setUserID:(NSString *)userID;
 + (NSString *)getUserID;
 + (NSString *)getDeviceID;
-+ (void)setUserProfile:(NSString *)value forKey:(NSString *)key;
-+ (void)setUserProfile:(NSDictionary *)profile;
++ (void)setStringUserProfile:(NSString*)value forKey:(NSString*)key;
++ (void)setIntUserProfile:(int)value forKey:(NSString*)key;
++ (void)setDoubleUserProfile:(double)value forKey:(NSString*)key;
++ (void)setDateUserProfile:(NSDate*)value forKey:(NSString*)key;
 
 // Event tracking
 + (void)track:(NSString*)name properties:(NSDictionary*)properties;

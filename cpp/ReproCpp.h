@@ -10,9 +10,7 @@
 
 #include <string>
 #include <map>
-
-using std::string;
-using std::map;
+#include <ctime>
 
 class ReproCpp {
 
@@ -36,8 +34,12 @@ public:
 
     // User Profile
     static void setUserID(const char* userId);
-    static void setUserProfile(const char* key, const char* value);
-    static void setUserProfile(const std::map<std::string, std::string> &profile);
+    static const char* getUserID();
+    static const char* getDeviceID();
+    static void setStringUserProfile(const char* key, const char* value);
+    static void setIntUserProfile(const char* key, int value);
+    static void setDoubleUserProfile(const char* key, double value);
+    static void setDateUserProfile(const char* key, std::time_t value);
 
     // Event Tracking
     static void track(const char*eventName);

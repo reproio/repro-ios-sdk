@@ -1,3 +1,21 @@
+# 2.0.0 (2016/08/16)
+
+**The special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-ios-2.0.0).**
+
+## New
+- Add following APIs
+  - `setIntUserProfile:(int)value forKey:(NSString*)key`
+  - `setDoubleUserProfile:(double)value forKey:(NSString*)key`
+  - `setDateUserProfile:(NSDate*)value forKey:(NSString*)key`
+
+## Changes
+
+- `setUserProfile:(NSString*)value forKey:(NSString*)key` and `setUserProfile:(NSDictionary *)profile` was removed. Use `setStringUserProfile:(NSString*)value forKey:(NSString*)key` instead
+
+## Fixed
+
+- Fix the some layout issue of the In-App message
+
 # 1.7.34 (2016/07/20)
 
 ## Improved
