@@ -1,3 +1,9 @@
+# 2.0.4 (2016/08/26)
+
+## Fixed
+
+- Fix the bug where masking feature for UIWebView/WKWebView didn't work correctly
+
 # 2.0.0 (2016/08/16)
 
 **The special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-ios-2.0.0).**
