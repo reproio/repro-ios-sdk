@@ -1,3 +1,10 @@
+# 2.0.6 (2016/09/09)
+
+## Fixed
+
+- Rename track: method for preventing Apple's static analyzer detects it is a non-public API
+- Use openURL:options:completionHandler: when opening a web page on iOS 10
+
 # 2.0.4 (2016/08/26)
 
 ## Fixed
