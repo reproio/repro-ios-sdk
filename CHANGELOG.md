@@ -1,9 +1,20 @@
+# 2.0.9 (2016/09/13)
+
+## Changes
+
+- User Face Recording feature is removed
+- Change default log level to Error
+
+## Fixed
+
+- Fix the bug where the 'Call To Action' event was tracked incorrectly when Banner message was dismissed
+
 # 2.0.6 (2016/09/09)
 
 ## Fixed
 
-- Rename track: method for preventing Apple's static analyzer detects it is a non-public API
-- Use openURL:options:completionHandler: when opening a web page on iOS 10
+- Rename `track:` method for preventing Apple's static analyzer detects it is a non-public API
+- Use `openURL:options:completionHandler:` when opening a web page on iOS 10
 
 # 2.0.4 (2016/08/26)
 
