@@ -1,3 +1,14 @@
+# 2.1.0 (2016/10/05)
+
+## New
+
+- Enable to open Deep Link or Web URL by opening Push Notification
+- Track Push Notification when the application uses UserNotifications framework
+
+## Fixed
+
+- Fixed the bug where Push Notification was not tracked properly
+
 # 2.0.9 (2016/09/13)
 
 ## Changes
@@ -11,10 +22,13 @@
 
 # 2.0.6 (2016/09/09)
 
+## Changes
+
+- Use `openURL:options:completionHandler:` when opening a web page on iOS 10
+
 ## Fixed
 
 - Rename `track:` method for preventing Apple's static analyzer detects it is a non-public API
-- Use `openURL:options:completionHandler:` when opening a web page on iOS 10
 
 # 2.0.4 (2016/08/26)
 
@@ -24,7 +38,7 @@
 
 # 2.0.0 (2016/08/16)
 
-**The special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-ios-2.0.0).**
+**The special step is required to upgrade the SDK. Please read our [Upgrade Guide](http://docs.repro.io/en/dev/sdk/upgrade/ios.html#upgrading-to-ios-2-0-0).**
 
 ## New
 - Add following APIs
