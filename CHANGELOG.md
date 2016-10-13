@@ -1,3 +1,9 @@
+# 2.1.3 (2016/10/13)
+
+## Fixed
+
+- Fixed the bug where CTA URL that contains hash(#) mark is encoded improperly
+
 # 2.1.0 (2016/10/05)
 
 ## New
