@@ -1,3 +1,9 @@
+# 2.1.12 (2016/11/17)
+
+## Fixed
+
+- Fixed the bug where the masking comes sporadically off for an instant right after the web page is loaded
+
 # 2.1.3 (2016/10/13)
 
 ## Fixed
