@@ -1,3 +1,25 @@
+# 2.2.2 (2017/02/15)
+
+## New Feature
+
+- Dialog message has a new layout with [just an image](http://docs.repro.io/en/dashboard/campaign/in-app-message.html#dialog-image-only)
+
+## Improvements
+
+- Add length validation for the User ID and the application version name
+  - User ID can go up to 191 characters; please note that everything from the 192th character it will be truncated.
+  - App Version name can go up to 32 characters; please note that everything from the 33th character will be truncated.
+
+- Change the first argument of `setIntUserProfile:forKey:` from `int` to `NSInteger`
+  - You don’t need to fix your source code if you’re using Objective-C
+  - If you’re using Swift and is passing `Int32` type value as the first argument, you need to convert it to `Int`
+
+    ```diff
+    let age:Int32 = 25;
+    - Repro.setUserProfile(age, forKey:"age");
+    + Repro.setUserProfile(Int(age), forKey:"age");
+    ```
+
 # 2.1.12 (2016/11/17)
 
 ## Fixed
