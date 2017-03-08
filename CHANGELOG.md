@@ -1,3 +1,9 @@
+# 2.2.9 (2017/03/08)
+
+## Bug Fixes
+
+- Fix the bug where stopping session rarely causing crashes
+
 # 2.2.2 (2017/02/15)
 
 ## New Feature
