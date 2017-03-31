@@ -1,3 +1,9 @@
+# 2.2.13 (2017/03/31)
+
+## Bug Fixes
+
+- Fixed the inconsistent behavior where the screen recording is activated even when it's turned off from **SETTINGS > RECORDING SETTINGS > Scroll Recording**
+
 # 2.2.9 (2017/03/08)
 
 ## Bug Fixes
