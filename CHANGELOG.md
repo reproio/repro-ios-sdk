@@ -1,3 +1,13 @@
+# 2.2.17 (2017/04/12)
+
+## Changes
+
+- ReproCpp.h/ReproCpp.mm, which had been included in previous iOS SDK versions, has been removed and became [Repro Cocos2d-x SDK](https://github.com/reproio/repro-cocos2dx-sdk) for newer versions from now on. Please see [here](http://docs.repro.io/en/releases/sdk/cocos2d-x/upgrade.html) for how to upgrade to Repro Cocos2d-x SDK.
+
+## Bug Fixes
+
+- Fix the bug where the recording pauses when displaying keyboard in WebView.
+
 # 2.2.13 (2017/03/31)
 
 ## Bug Fixes
