@@ -1,3 +1,15 @@
+# 2.3.1 (2017/05/19)
+
+## New Feature
+
+- Add feature to track First Launch event automatically.
+  - Using First Launch event from the Dashboard will be ready shortly.
+
+## Bug Fixes
+
+- Fixed the bug where it rarely crashes while recording.
+- Fixed the bug where the masking comes off while animating the View.
+
 # 2.2.17 (2017/04/12)
 
 ## Changes
