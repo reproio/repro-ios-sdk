@@ -1,9 +1,14 @@
+# 2.4.0 (2017/05/23)
+
+## New Feature
+
+- Enable to customize the color of the In-App message. See [In-App Message](http://docs.repro.io/en/dashboard/campaign/in-app-message.html) for more details.
+
 # 2.3.1 (2017/05/19)
 
 ## New Feature
 
 - Add feature to track First Launch event automatically.
-  - Using First Launch event from the Dashboard will be ready shortly.
 
 ## Bug Fixes
 
