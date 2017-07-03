@@ -1,3 +1,14 @@
+# 2.5.0 (2017/07/03)
+
+## New Feature
+
+- Add APIs for tracking starndard events (typical events for user behavior analysis). See [Event Tracking](http://docs.repro.io/en/dev/sdk/tracking.html) for more details.
+
+## Bug Fixes
+
+- Fix the bug where it rarely crashes when adding or removing masks while recording.
+- Fix the bug where the layout of the In-App Message rarely collapses when rotating the devices with iOS 10.1 or later.
+
 # 2.4.0 (2017/05/23)
 
 ## New Feature

@@ -1,12 +1,11 @@
 //
-//  Repro.h
-//  Repro
+//  Repro iOS SDK
 //
-//  Created by Masahiro Hayashi on 9/17/14.
 //  Copyright (c) 2014 Repro Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "RPREventProperties.h"
 
 //! Project version number for Repro.
 FOUNDATION_EXPORT double ReproVersionNumber;
@@ -39,6 +38,18 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 // Event tracking
 + (void)track:(NSString*)name properties:(NSDictionary*)properties;
 + (void)startWebViewTracking:(id)delegate;
+
+// Standard event tracking
++ (void)trackViewContent:(NSString *)contentID properties:(RPRViewContentProperties *)properties;
++ (void)trackSearch:(RPRSearchProperties *)properties;
++ (void)trackAddToCart:(NSString *)contentID properties:(RPRAddToCartProperties *)properties;
++ (void)trackAddToWishlist:(RPRAddToWishlistProperties *)properties;
++ (void)trackInitiateCheckout:(RPRInitiateCheckoutProperties *)properties;
++ (void)trackAddPaymentInfo:(RPRAddPaymentInfoProperties *)properties;
++ (void)trackPurchase:(NSString *)contentID properties:(RPRPurchaseProperties *)properties;
++ (void)trackShare:(RPRShareProperties *)properties;
++ (void)trackCompleteRegistration:(RPRCompleteRegistrationProperties *)properties;
++ (void)trackLead:(RPRLeadProperties *)properties;
 
 // Recording
 + (void)startRecording;
