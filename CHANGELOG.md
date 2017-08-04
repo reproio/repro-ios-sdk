@@ -1,3 +1,19 @@
+# 2.5.2 (2017/08/04)
+
+## New Feature
+
+- Add standard events tracking APIs for UIWebView and WKWebView.
+  - You must change the URL of the Repro’s JavaScript file in your HTML. See [WebView](http://docs.repro.io/en/dev/sdk/webview.html) for more details.
+
+  ```diff
+  <head>
+  ...
+  -   <script src="//cdn.repro.io/js/v2/repro.js" type="text/javascript" charset="utf-8"></script>
+  +   <script src="//cdn.repro.io/js/v3/repro.js" type="text/javascript" charset="utf-8"></script>
+  ...
+  </head>
+  ```
+
 # 2.5.0 (2017/07/03)
 
 ## New Feature
