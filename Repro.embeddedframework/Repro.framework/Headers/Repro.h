@@ -6,6 +6,7 @@
 
 #import <UIKit/UIKit.h>
 #import "RPREventProperties.h"
+#import "RPRUserProfileGender.h"
 
 //! Project version number for Repro.
 FOUNDATION_EXPORT double ReproVersionNumber;
@@ -34,6 +35,8 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)setIntUserProfile:(NSInteger)value forKey:(NSString*)key;
 + (void)setDoubleUserProfile:(double)value forKey:(NSString*)key;
 + (void)setDateUserProfile:(NSDate*)value forKey:(NSString*)key;
++ (void)setUserGender:(RPRUserProfileGender)value;
++ (void)setUserEmailAddress:(NSString*)value;
 
 // Event tracking
 + (void)track:(NSString*)name properties:(NSDictionary*)properties;
