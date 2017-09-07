@@ -55,6 +55,7 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)trackLead:(RPRLeadProperties *)properties;
 
 // Recording
++ (void)forceCaptureOnMainThread;
 + (void)startRecording;
 + (void)stopRecording;
 + (void)pauseRecording;
