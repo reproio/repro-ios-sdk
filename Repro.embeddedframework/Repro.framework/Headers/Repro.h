@@ -60,6 +60,8 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)stopRecording;
 + (void)pauseRecording;
 + (void)resumeRecording;
++ (void)enableRecordingWhileViewAnimations;
++ (void)disableRecordingWhileViewAnimations;
 
 // Masking
 + (void)mask:(UIView *)view;
