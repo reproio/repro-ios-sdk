@@ -29,6 +29,8 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 
 // User profile
 + (void)setUserID:(NSString *)userID;
++ (NSString *)getUserID;
++ (NSString *)getDeviceID;
 + (void)setUserProfile:(NSString *)value forKey:(NSString *)key;
 + (void)setUserProfile:(NSDictionary *)profile;
 
@@ -49,7 +51,7 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 + (void)unmaskForKey:(NSString*)key;
 
 // Crash reporting
-+ (void)enableCrashReporting;
++ (void)enableCrashReporting __attribute__ ((deprecated));
 
 // Log
 + (void)setLogLevel:(RPRLogLevel)level;

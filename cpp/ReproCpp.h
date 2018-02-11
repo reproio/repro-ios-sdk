@@ -43,9 +43,6 @@ public:
     static void track(const char*eventName);
     static void trackWithProperties(const char* eventName, const char* jsonDictionary);
 
-    // Crash Reporting
-    static void enableCrashReporting();
-
     // In App Message
     static void disableInAppMessageOnActive();
     static void showInAppMessage();

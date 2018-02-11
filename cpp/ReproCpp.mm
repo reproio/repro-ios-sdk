@@ -95,10 +95,6 @@ void ReproCpp::trackWithProperties(const char* eventName, const char* jsonDictio
     [Repro track:convertCStringToNSString(eventName) properties:convertCStringJSONToNSDictionary(jsonDictionary)];
 }
 
-void ReproCpp::enableCrashReporting() {
-    [Repro enableCrashReporting];
-}
-
 // In App Message
 void ReproCpp::disableInAppMessageOnActive() {
     [Repro disableInAppMessageOnActive];
