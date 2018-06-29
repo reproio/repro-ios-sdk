@@ -57,8 +57,6 @@
 @end
 
 @interface RPRPurchaseProperties : NSObject
-@property (nonatomic, readwrite) double value;
-@property (nonatomic, readwrite, copy) NSString *currency;
 @property (nonatomic, readwrite, copy) NSString *contentName;
 @property (nonatomic, readwrite, copy) NSString *contentCategory;
 @property (nonatomic, readwrite) NSInteger numItems;
