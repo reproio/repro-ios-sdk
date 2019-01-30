@@ -27,6 +27,9 @@ typedef NS_ENUM(NSInteger, RPRLogLevel) {
 // Session (Initialization)
 + (void)setup:(NSString *)token;
 
+// OptIn / OptOut
++ (void)optIn:(BOOL)endUserOptedIn;
+
 // User profile
 + (void)setUserID:(NSString *)userID;
 + (NSString *)getUserID;
