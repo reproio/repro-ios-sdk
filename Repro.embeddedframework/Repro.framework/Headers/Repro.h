@@ -15,78 +15,113 @@ FOUNDATION_EXPORT double ReproVersionNumber;
 FOUNDATION_EXPORT const unsigned char ReproVersionString[];
 
 typedef NS_ENUM(NSInteger, RPRLogLevel) {
-    RPRLogLevelDebug,
-    RPRLogLevelInfo,
-    RPRLogLevelWarn,
-    RPRLogLevelError,
-    RPRLogLevelNone
+    RPRLogLevelDebug NS_SWIFT_NAME(debug),
+    RPRLogLevelInfo  NS_SWIFT_NAME(info),
+    RPRLogLevelWarn  NS_SWIFT_NAME(warn),
+    RPRLogLevelError NS_SWIFT_NAME(error),
+    RPRLogLevelNone  NS_SWIFT_NAME(none)
 };
 
 @interface Repro : NSObject
 
 // Session (Initialization)
-+ (void)setup:(NSString *)token;
++ (void)setup:(nonnull NSString *)token
+NS_SWIFT_NAME(setup(token:));
+
 
 // OptIn / OptOut
-+ (void)optIn:(BOOL)endUserOptedIn;
++ (void)optIn:(BOOL)endUserOptedIn
+NS_SWIFT_NAME(optIn(endUserOptedIn:));
+
 
 // User profile
-+ (void)setUserID:(NSString *)userID;
-+ (NSString *)getUserID;
-+ (NSString *)getDeviceID;
-+ (void)setStringUserProfile:(NSString*)value forKey:(NSString*)key;
-+ (void)setIntUserProfile:(NSInteger)value forKey:(NSString*)key;
-+ (void)setDoubleUserProfile:(double)value forKey:(NSString*)key;
-+ (void)setDateUserProfile:(NSDate*)value forKey:(NSString*)key;
-+ (void)setUserGender:(RPRUserProfileGender)value;
-+ (void)setUserEmailAddress:(NSString*)value;
++ (void)setUserID:(nonnull NSString *)userID
+NS_SWIFT_NAME(set(userID:));
+
++ (nonnull NSString *)getUserID
+NS_SWIFT_NAME(userID());
+
++ (nullable NSString *)getDeviceID
+NS_SWIFT_NAME(deviceID());
+
++ (void)setStringUserProfile:(nonnull NSString *)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(setUserProfile(stringValue:forKey:));
+
++ (void)setIntUserProfile:(NSInteger)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(setUserProfile(integerValue:forKey:));
+
++ (void)setDoubleUserProfile:(double)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(setUserProfile(doubleValue:forKey:));
+
++ (void)setDateUserProfile:(nonnull NSDate *)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(setUserProfile(dateValue:forKey:));
+
++ (void)setUserGender:(RPRUserProfileGender)value
+NS_SWIFT_NAME(setUserProfile(gender:));
+
++ (void)setUserEmailAddress:(nonnull NSString *)value
+NS_SWIFT_NAME(setUserProfile(emailAddress:));
+
 
 // Event tracking
-+ (void)track:(NSString*)name properties:(NSDictionary*)properties;
-+ (void)startWebViewTracking:(id)delegate;
++ (void)track:(nonnull NSString *)name properties:(nullable NSDictionary *)properties
+NS_SWIFT_NAME(track(event:properties:));
+
++ (void)startWebViewTracking:(nonnull id)delegate
+NS_SWIFT_NAME(startWebViewTracking(delegate:));
+
 
 // Standard event tracking
-+ (void)trackViewContent:(NSString *)contentID properties:(RPRViewContentProperties *)properties;
-+ (void)trackSearch:(RPRSearchProperties *)properties;
-+ (void)trackAddToCart:(NSString *)contentID properties:(RPRAddToCartProperties *)properties;
-+ (void)trackAddToWishlist:(RPRAddToWishlistProperties *)properties;
-+ (void)trackInitiateCheckout:(RPRInitiateCheckoutProperties *)properties;
-+ (void)trackAddPaymentInfo:(RPRAddPaymentInfoProperties *)properties;
-+ (void)trackPurchase:(NSString *)contentID value:(double)value currency:(NSString*)currency properties:(RPRPurchaseProperties *)properties;
-+ (void)trackShare:(RPRShareProperties *)properties;
-+ (void)trackCompleteRegistration:(RPRCompleteRegistrationProperties *)properties;
-+ (void)trackLead:(RPRLeadProperties *)properties;
++ (void)trackViewContent:(nonnull NSString *)contentID properties:(nullable RPRViewContentProperties *)properties
+NS_SWIFT_NAME(trackViewContentEvent(contentID:properties:));
 
-// Recording
-+ (void)forceCaptureOnMainThread;
-+ (void)startRecording;
-+ (void)stopRecording;
-+ (void)pauseRecording;
-+ (void)resumeRecording;
-+ (void)enableRecordingWhileViewAnimations;
-+ (void)disableRecordingWhileViewAnimations;
++ (void)trackSearch:(nullable RPRSearchProperties *)properties
+NS_SWIFT_NAME(trackSearchEvent(properties:));
 
-// Masking
-+ (void)mask:(UIView *)view;
-+ (void)unmask:(UIView *)view;
-+ (void)maskWithRect:(CGRect)rect key:(NSString*)key;
-+ (void)unmaskForKey:(NSString*)key;
++ (void)trackAddToCart:(nonnull NSString *)contentID properties:(nullable RPRAddToCartProperties *)properties
+NS_SWIFT_NAME(trackAddToCartEvent(contentID:properties:));
 
-// Crash reporting
-+ (void)enableCrashReporting __attribute__ ((deprecated));
++ (void)trackAddToWishlist:(nullable RPRAddToWishlistProperties *)properties
+NS_SWIFT_NAME(trackAddToWishlistEvent(properties:));
+
++ (void)trackInitiateCheckout:(nullable RPRInitiateCheckoutProperties *)properties
+NS_SWIFT_NAME(trackInitiateCheckoutEvent(properties:));
+
++ (void)trackAddPaymentInfo:(nullable RPRAddPaymentInfoProperties *)properties
+NS_SWIFT_NAME(trackAddPaymentInfoEvent(properties:));
+
++ (void)trackPurchase:(nonnull NSString *)contentID value:(double)value currency:(nonnull NSString *)currency properties:(nullable RPRPurchaseProperties *)properties
+NS_SWIFT_NAME(trackPurchaseEvent(contentID:value:currency:properties:));
+
++ (void)trackShare:(nullable RPRShareProperties *)properties
+NS_SWIFT_NAME(trackShareEvent(properties:));
+
++ (void)trackCompleteRegistration:(nullable RPRCompleteRegistrationProperties *)properties
+NS_SWIFT_NAME(trackCompleteRegistrationEvent(properties:));
+
++ (void)trackLead:(nullable RPRLeadProperties *)properties
+NS_SWIFT_NAME(trackLeadEvent(properties:));
+
 
 // Log
-+ (void)setLogLevel:(RPRLogLevel)level;
++ (void)setLogLevel:(RPRLogLevel)level
+NS_SWIFT_NAME(set(logLevel:));
+
 
 // Push Notification
-+ (void)setPushDeviceToken:(NSData *)pushDeviceToken;
-+ (void)setPushDeviceTokenString:(NSString *)pushDeviceToken;
++ (void)setPushDeviceToken:(nonnull NSData *)pushDeviceToken
+NS_SWIFT_NAME(setPushDeviceToken(data:));
+
++ (void)setPushDeviceTokenString:(nonnull NSString *)pushDeviceToken
+NS_SWIFT_NAME(setPushDeviceToken(string:));
+
 
 // In App Message
-+ (void)disableInAppMessageOnActive;
-+ (void)showInAppMessage;
++ (void)disableInAppMessageOnActive
+NS_SWIFT_NAME(disableInAppMessageOnActive());
 
-// Integrations
-+ (void)integrateRtoaster:(NSString *)accountID;
++ (void)showInAppMessage
+NS_SWIFT_NAME(showInAppMessage());
+
 
 @end

@@ -5,7 +5,8 @@
 //
 
 typedef NS_ENUM(NSInteger, RPRUserProfileGender) {
-    RPRUserProfileGenderOther = 0,
-    RPRUserProfileGenderMale,
-    RPRUserProfileGenderFemale
+    RPRUserProfileGenderOther    NS_SWIFT_NAME(other) = 0,
+    RPRUserProfileGenderMale     NS_SWIFT_NAME(male),
+    RPRUserProfileGenderFemale   NS_SWIFT_NAME(female)
 };
+
