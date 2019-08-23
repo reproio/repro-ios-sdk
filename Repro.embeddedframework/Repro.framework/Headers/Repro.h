@@ -7,6 +7,8 @@
 #import <UIKit/UIKit.h>
 #import "RPREventProperties.h"
 #import "RPRUserProfileGender.h"
+#import "RPRRemoteConfig.h"
+
 
 //! Project version number for Repro.
 FOUNDATION_EXPORT double ReproVersionNumber;
@@ -123,5 +125,8 @@ NS_SWIFT_NAME(disableInAppMessageOnActive());
 + (void)showInAppMessage
 NS_SWIFT_NAME(showInAppMessage());
 
+
+// Remote Configuration
+@property (class, nonatomic, readonly, nonnull) RPRRemoteConfig *remoteConfig;
 
 @end
