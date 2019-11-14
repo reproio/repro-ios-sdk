@@ -4,6 +4,8 @@
 //  Copyright (c) 2014 Repro Inc. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @interface RPRViewContentProperties : NSObject
 @property (nonatomic, readwrite) double value;
 @property (nonatomic, readwrite, copy) NSString *currency;

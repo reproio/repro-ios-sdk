@@ -4,11 +4,13 @@
 //  Copyright (c) 2014 Repro Inc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
 #import "RPREventProperties.h"
 #import "RPRUserProfileGender.h"
 #import "RPRRemoteConfig.h"
 
+@protocol WKNavigationDelegate;
 
 //! Project version number for Repro.
 FOUNDATION_EXPORT double ReproVersionNumber;
@@ -69,7 +71,7 @@ NS_SWIFT_NAME(setUserProfile(emailAddress:));
 + (void)track:(nonnull NSString *)name properties:(nullable NSDictionary *)properties
 NS_SWIFT_NAME(track(event:properties:));
 
-+ (void)startWebViewTracking:(nonnull id)delegate
++ (void)startWebViewTracking:(nonnull id<WKNavigationDelegate>)delegate
 NS_SWIFT_NAME(startWebViewTracking(delegate:));
 
 
