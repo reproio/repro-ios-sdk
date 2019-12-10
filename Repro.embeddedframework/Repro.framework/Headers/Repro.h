@@ -127,6 +127,12 @@ NS_SWIFT_NAME(disableInAppMessageOnActive());
 + (void)showInAppMessage
 NS_SWIFT_NAME(showInAppMessage());
 
+// Silver Egg In-app
++ (void)setSilverEggCookie:(nonnull NSString *)silverEggCookie
+NS_SWIFT_NAME(set(silverEggCookie:));
+
++ (void)setSilverEggProdKey:(nonnull NSString *)silverEggProdKey
+NS_SWIFT_NAME(set(silverEggProdKey:));
 
 // Remote Configuration
 @property (class, nonatomic, readonly, nonnull) RPRRemoteConfig *remoteConfig;
