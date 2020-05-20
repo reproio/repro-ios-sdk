@@ -9,6 +9,7 @@
 #import "RPREventProperties.h"
 #import "RPRUserProfileGender.h"
 #import "RPRRemoteConfig.h"
+#import "RPRNewsFeedEntry.h"
 
 @protocol WKNavigationDelegate;
 
@@ -136,5 +137,18 @@ NS_SWIFT_NAME(set(silverEggProdKey:));
 
 // Remote Configuration
 @property (class, nonatomic, readonly, nonnull) RPRRemoteConfig *remoteConfig;
+
+// NewsFeed
++ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(NSUInteger)limit
+                                            error:(NSError * _Nullable * _Nullable)error
+NS_SWIFT_NAME(getNewsFeeds(_:));
+
++ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(NSUInteger)limit
+                                         offsetID:(NSUInteger)offsetID
+                                            error:(NSError * _Nullable * _Nullable)error
+NS_SWIFT_NAME(getNewsFeeds(_:offsetID:));
+
++ (BOOL)updateNewsFeeds:(nonnull NSArray<RPRNewsFeedEntry *> *)newsFeeds error:(NSError * _Nullable * _Nullable)error
+NS_SWIFT_NAME(updateNewsFeeds(_:));
 
 @end
