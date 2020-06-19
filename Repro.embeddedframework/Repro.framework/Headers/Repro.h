@@ -122,11 +122,12 @@ NS_SWIFT_NAME(setPushDeviceToken(string:));
 
 
 // In App Message
-+ (void)disableInAppMessageOnActive
-NS_SWIFT_NAME(disableInAppMessageOnActive());
 
-+ (void)showInAppMessage
-NS_SWIFT_NAME(showInAppMessage());
++ (void)enableInAppMessagesOnForegroundTransition
+NS_SWIFT_NAME(enableInAppMessagesOnForegroundTransition());
+
++ (void)disableInAppMessagesOnForegroundTransition
+NS_SWIFT_NAME(disableInAppMessagesOnForegroundTransition());
 
 // Silver Egg In-app
 + (void)setSilverEggCookie:(nonnull NSString *)silverEggCookie
