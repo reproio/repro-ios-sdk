@@ -6,10 +6,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import "RPREventProperties.h"
-#import "RPRUserProfileGender.h"
-#import "RPRRemoteConfig.h"
-#import "RPRNewsFeedEntry.h"
+#import <Repro/RPREventProperties.h>
+#import <Repro/RPRUserProfileGender.h>
+#import <Repro/RPRRemoteConfig.h>
+#import <Repro/RPRNewsFeedEntry.h>
 
 @protocol WKNavigationDelegate;
 
@@ -140,13 +140,13 @@ NS_SWIFT_NAME(set(silverEggProdKey:));
 @property (class, nonatomic, readonly, nonnull) RPRRemoteConfig *remoteConfig;
 
 // NewsFeed
-+ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(NSUInteger)limit
-                                            error:(NSError * _Nullable * _Nullable)error
++ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(uint64_t)limit
+                                                 error:(NSError * _Nullable * _Nullable)error
 NS_SWIFT_NAME(getNewsFeeds(_:));
 
-+ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(NSUInteger)limit
-                                         offsetID:(NSUInteger)offsetID
-                                            error:(NSError * _Nullable * _Nullable)error
++ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(uint64_t)limit
+                                              offsetID:(uint64_t)offsetID
+                                                 error:(NSError * _Nullable * _Nullable)error
 NS_SWIFT_NAME(getNewsFeeds(_:offsetID:));
 
 + (BOOL)updateNewsFeeds:(nonnull NSArray<RPRNewsFeedEntry *> *)newsFeeds error:(NSError * _Nullable * _Nullable)error

@@ -10,7 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RPRNewsFeedEntry : NSObject
 
-@property (nonatomic, readonly)           NSUInteger ID;
+@property (nonatomic, readonly)           uint64_t ID;
 @property (nonatomic, readonly)           NSString *deviceID;
 @property (nonatomic, readonly)           NSString *title;
 @property (nonatomic, readonly)           NSString *summary;
@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic)                     BOOL read;
 
 - (instancetype)init NS_UNAVAILABLE;
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end
 

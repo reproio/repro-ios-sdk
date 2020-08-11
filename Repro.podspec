@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'Repro'
-  s.version           = '5.0.2'
+  s.version           = '5.1.0'
   s.summary           = 'Repro is a mobile analytics tool that lets you have much deeper understanding of your users.'
   s.homepage          = 'https://repro.io/'
   s.license           = {
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Repro.embeddedframework/Repro.framework'
   s.resource            = 'Repro.embeddedframework/Resources/ReproSDKResources.bundle'
 
-  s.frameworks          = 'CoreTelephony', 'MobileCoreServices', 'Security', 'SystemConfiguration', 'WebKit'
+  s.frameworks          = 'SystemConfiguration', 'WebKit'
 end
