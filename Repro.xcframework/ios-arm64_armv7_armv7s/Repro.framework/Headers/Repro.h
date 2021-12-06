@@ -145,9 +145,20 @@ NS_SWIFT_NAME(set(silverEggProdKey:));
 NS_SWIFT_NAME(getNewsFeeds(_:));
 
 + (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(uint64_t)limit
+                                          campaignType:(RPRCampaignType)campaignType
+                                                 error:(NSError * _Nullable * _Nullable)error
+NS_SWIFT_NAME(getNewsFeeds(_:campaignType:));
+
++ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(uint64_t)limit
                                               offsetID:(uint64_t)offsetID
                                                  error:(NSError * _Nullable * _Nullable)error
 NS_SWIFT_NAME(getNewsFeeds(_:offsetID:));
+
++ (nullable NSArray<RPRNewsFeedEntry *> *)getNewsFeeds:(uint64_t)limit
+                                              offsetID:(uint64_t)offsetID
+                                          campaignType:(RPRCampaignType)campaignType
+                                                 error:(NSError * _Nullable * _Nullable)error
+NS_SWIFT_NAME(getNewsFeeds(_:offsetID:campaignType:));
 
 + (BOOL)updateNewsFeeds:(nonnull NSArray<RPRNewsFeedEntry *> *)newsFeeds error:(NSError * _Nullable * _Nullable)error
 NS_SWIFT_NAME(updateNewsFeeds(_:));
