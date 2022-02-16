@@ -98,11 +98,11 @@ NS_SWIFT_NAME(value(forKey:));
 /// Access to remote config values via subscript syntax.
 - (nonnull RPRRemoteConfigValue *)objectForKeyedSubscript:(nonnull NSString *)key;
 
-/// Return a dictonary with all key value pairs.
+/// Return a dictionary with all key value pairs.
 - (nonnull NSDictionary<NSString *, RPRRemoteConfigValue *> *)allValues
 NS_SWIFT_NAME(allValues());
 
-/// Return a dictonary with all key value pairs for a given prefix. Pass `nil` or an empty string to get all values.
+/// Return a dictionary with all key value pairs for a given prefix. Pass `nil` or an empty string to get all values.
 - (nonnull NSDictionary<NSString *, RPRRemoteConfigValue *> *)allValuesWithPrefix:(nullable NSString *)prefix
 NS_SWIFT_NAME(allValues(withPrefix:));
 
