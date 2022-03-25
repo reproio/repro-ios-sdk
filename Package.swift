@@ -8,12 +8,12 @@ let package = Package(
     products: [
         .library(
             name: "Repro",
-            targets: ["ReproBinarySDK", "ReproDependencyDummy"]
+            targets: ["Repro", "ReproDependencyDummy"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "ReproBinarySDK",
+            name: "Repro",
             path: "Repro.xcframework"
         ),
         .target(
