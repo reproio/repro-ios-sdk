@@ -69,6 +69,9 @@ NS_SWIFT_NAME(setUserProfile(emailAddress:));
 
 
 // Event tracking
++ (void)track:(nonnull NSString *)name
+NS_SWIFT_NAME(track(event:));
+
 + (void)track:(nonnull NSString *)name properties:(nullable NSDictionary *)properties
 NS_SWIFT_NAME(track(event:properties:));
 
@@ -135,6 +138,16 @@ NS_SWIFT_NAME(set(silverEggCookie:));
 
 + (void)setSilverEggProdKey:(nonnull NSString *)silverEggProdKey
 NS_SWIFT_NAME(set(silverEggProdKey:));
+
+
+// Event Callbacks
+
++ (void)addOpenUrlFilterRegEx:(nonnull NSString *)filterRegEx
+NS_SWIFT_NAME(add(openUrlFilterRegEx:));
+
++ (void)setOpenUrlCallback:(void(^ _Nullable)(NSURL * _Nonnull url))callback
+NS_SWIFT_NAME(setOpenUrlCallback(_:));
+
 
 // Remote Configuration
 @property (class, nonatomic, readonly, nonnull) RPRRemoteConfig *remoteConfig;
