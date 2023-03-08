@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                = 'Repro'
-    s.version             = '5.9.4'
+    s.version             = '5.9.5'
     s.summary             = 'Repro is a mobile analytics tool that lets you have much deeper understanding of your users.'
     s.homepage            = 'https://repro.io/'
     s.license             = {
