@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'Repro.xcframework'
 
     s.frameworks          = 'UIKit', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'WebKit', 'UserNotifications'
-    s.resource_bundle = { 'Repro' => ['Resources/PrivacyInfo.xcprivacy']}
+    s.resource_bundle = { 'Repro_Privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
 
 
