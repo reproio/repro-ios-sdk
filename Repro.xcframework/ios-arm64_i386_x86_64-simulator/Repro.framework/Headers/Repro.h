@@ -7,7 +7,7 @@
 #import <Foundation/Foundation.h>
 
 #import <Repro/RPREventProperties.h>
-#import <Repro/RPRUserProfileGender.h>
+#import <Repro/RPRUserProfileTypes.h>
 #import <Repro/RPRRemoteConfig.h>
 #import <Repro/RPRNewsFeedEntry.h>
 
@@ -66,6 +66,15 @@ NS_SWIFT_NAME(setUserProfile(gender:));
 
 + (void)setUserEmailAddress:(nonnull NSString *)value
 NS_SWIFT_NAME(setUserProfile(emailAddress:));
+
++ (void)setUserResidencePrefecture:(RPRUserProfilePrefecture)value
+NS_SWIFT_NAME(setUserProfile(residencePrefecture:));
+
++ (void)setUserDateOfBirth:(nonnull NSDate *)value
+NS_SWIFT_NAME(setUserProfile(dateOfBirth:));
+
++ (void)setUserAge:(NSInteger)value
+NS_SWIFT_NAME(setUserProfile(age:));
 
 
 // Event tracking
