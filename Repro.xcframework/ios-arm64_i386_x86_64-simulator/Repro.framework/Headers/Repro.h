@@ -185,4 +185,9 @@ NS_SWIFT_NAME(getNewsFeeds(_:offsetID:campaignType:));
 + (BOOL)updateNewsFeeds:(nonnull NSArray<RPRNewsFeedEntry *> *)newsFeeds error:(NSError * _Nullable * _Nullable)error
 NS_SWIFT_NAME(updateNewsFeeds(_:));
 
+
+// Miscellaneous
+
++ (BOOL)filterReproDeeplinks:(nonnull id)obj;
+
 @end
