@@ -27,7 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly)           NSString *body;
 @property (nonatomic, readonly)           RPRCampaignType campaignType;
 @property (nonatomic, readonly, nullable) NSURL *linkUrl;
+@property (nonatomic, readonly, nullable) NSString *linkUrlString;
 @property (nonatomic, readonly, nullable) NSURL *imageUrl;
+@property (nonatomic, readonly, nullable) NSString *imageUrlString;
 @property (nonatomic, readonly)           NSDate *deliveredAt;
 @property (nonatomic)                     BOOL shown;
 @property (nonatomic)                     BOOL read;
