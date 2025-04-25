@@ -190,4 +190,11 @@ NS_SWIFT_NAME(updateNewsFeeds(_:));
 
 + (BOOL)filterReproDeeplinks:(nonnull id)obj;
 
+// LINE Integration
++ (void)linkLineID:(nonnull NSString *)lineUserId lineChannelID:(nonnull NSString *)lineChannelId
+NS_SWIFT_NAME(linkLineID(lineUserID:lineChannelID:));
+
++ (void)unlinkLineID:(nonnull NSString *)lineUserId lineChannelID:(nonnull NSString *)lineChannelId
+NS_SWIFT_NAME(unlinkLineID(lineUserID:lineChannelID:));
+
 @end
