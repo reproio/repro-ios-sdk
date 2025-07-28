@@ -52,29 +52,92 @@ NS_SWIFT_NAME(deviceID());
 + (void)setStringUserProfile:(nonnull NSString *)value forKey:(nonnull NSString *)key
 NS_SWIFT_NAME(setUserProfile(stringValue:forKey:));
 
++ (void)onlySetIfAbsentStringUserProfile:(nonnull NSString *)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(stringValue:forKey:));
+
 + (void)setIntUserProfile:(NSInteger)value forKey:(nonnull NSString *)key
 NS_SWIFT_NAME(setUserProfile(integerValue:forKey:));
+
++ (void)incrementIntUserProfileBy:(NSInteger)amount forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(incrementIntegerUserProfile(by:forKey:));
+
++ (void)decrementIntUserProfileBy:(NSInteger)amount forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(decrementIntegerUserProfile(by:forKey:));
+
++ (void)onlySetIfAbsentIntUserProfile:(NSInteger)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(integerValue:forKey:));
 
 + (void)setDoubleUserProfile:(double)value forKey:(nonnull NSString *)key
 NS_SWIFT_NAME(setUserProfile(doubleValue:forKey:));
 
++ (void)incrementDoubleUserProfileBy:(double)amount forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(incrementDoubleUserProfile(by:forKey:));
+
++ (void)decrementDoubleUserProfileBy:(double)amount forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(decrementDoubleUserProfile(by:forKey:));
+
++ (void)onlySetIfAbsentDoubleUserProfile:(double)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(doubleValue:forKey:));
+
 + (void)setDateUserProfile:(nonnull NSDate *)value forKey:(nonnull NSString *)key
 NS_SWIFT_NAME(setUserProfile(dateValue:forKey:));
+
++ (void)onlySetIfAbsentDateUserProfile:(nonnull NSDate *)value forKey:(nonnull NSString *)key
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(dateValue:forKey:));
 
 + (void)setUserGender:(RPRUserProfileGender)value
 NS_SWIFT_NAME(setUserProfile(gender:));
 
++ (void)onlySetIfAbsentUserGender:(RPRUserProfileGender)value
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(gender:));
+
 + (void)setUserEmailAddress:(nonnull NSString *)value
 NS_SWIFT_NAME(setUserProfile(emailAddress:));
+
++ (void)onlySetIfAbsentUserEmailAddress:(nonnull NSString *)value
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(emailAddress:));
 
 + (void)setUserResidencePrefecture:(RPRUserProfilePrefecture)value
 NS_SWIFT_NAME(setUserProfile(residencePrefecture:));
 
++ (void)onlySetIfAbsentUserResidencePrefecture:(RPRUserProfilePrefecture)value
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(residencePrefecture:));
+
 + (void)setUserDateOfBirth:(nonnull NSDate *)value
 NS_SWIFT_NAME(setUserProfile(dateOfBirth:));
 
++ (void)onlySetIfAbsentUserDateOfBirth:(nonnull NSDate *)value
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(dateOfBirth:));
+
 + (void)setUserAge:(NSInteger)value
 NS_SWIFT_NAME(setUserProfile(age:));
+
++ (void)incrementUserAgeBy:(NSInteger)amount
+NS_SWIFT_NAME(incrementUserProfileAge(by:));
+
++ (void)decrementUserAgeBy:(NSInteger)amount
+NS_SWIFT_NAME(decrementUserProfileAge(by:));
+
++ (void)onlySetIfAbsentUserAge:(NSInteger)value
+NS_SWIFT_NAME(onlySetIfAbsentUserProfile(age:));
+
++ (void)deleteUserProfile:(nonnull NSString *)key
+NS_SWIFT_NAME(deleteUserProfile(forKey:));
+
++ (void)deleteUserGender
+NS_SWIFT_NAME(deleteUserProfileGender());
+
++ (void)deleteUserEmailAddress
+NS_SWIFT_NAME(deleteUserProfileEmailAddress());
+
++ (void)deleteUserResidencePrefecture
+NS_SWIFT_NAME(deleteUserProfileResidencePrefecture());
+
++ (void)deleteUserDateOfBirth
+NS_SWIFT_NAME(deleteUserProfileDateOfBirth());
+
++ (void)deleteUserAge
+NS_SWIFT_NAME(deleteUserProfileAge());
 
 
 // Event tracking
