@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
     s.vendored_frameworks = 'Repro.xcframework'
 
-    s.frameworks          = 'UIKit', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'WebKit', 'UserNotifications'
+    s.frameworks          = 'UIKit', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'WebKit', 'UserNotifications', 'CoreLocation', 'BackgroundTasks'
 end
 
 
