@@ -260,4 +260,7 @@ NS_SWIFT_NAME(linkLineID(lineUserID:lineChannelID:));
 + (void)unlinkLineID:(nonnull NSString *)lineUserId lineChannelID:(nonnull NSString *)lineChannelId
 NS_SWIFT_NAME(unlinkLineID(lineUserID:lineChannelID:));
 
++ (void)deepLinkReceived:(nonnull NSURL *)url
+NS_SWIFT_NAME(deepLinkReceived(url:));
+
 @end
