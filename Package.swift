@@ -26,6 +26,8 @@ let package = Package(
                 .linkedFramework("WebKit"),
                 .linkedFramework("SystemConfiguration"),
                 .linkedFramework("UserNotifications"),
+                .linkedFramework("CoreLocation"),
+                .linkedFramework("BackgroundTasks"),
             ]
         ),
     ]
