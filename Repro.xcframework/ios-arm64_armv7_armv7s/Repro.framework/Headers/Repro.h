@@ -263,4 +263,18 @@ NS_SWIFT_NAME(unlinkLineID(lineUserID:lineChannelID:));
 + (void)deepLinkReceived:(nonnull NSURL *)url
 NS_SWIFT_NAME(deepLinkReceived(url:));
 
+
+// Geofence
+
+/**
+ * 現在地がジオフェンス内にあるか手動で判定し、結果をコールバックで返す。
+ * ACCESS_BACKGROUND_LOCATION は不要。ACCESS_FINE_LOCATION (WhenInUse) のみで動作する。
+ *
+ * @param success  成功時に呼ばれる。geofenceNames は現在いるジオフェンス名のリスト（空の場合もある）
+ * @param failure  権限不足・CSV未取得・位置情報取得失敗時に呼ばれる
+ */
++ (void)checkInsideGeofence:(void (^ _Nonnull)(NSArray<NSString *> * _Nonnull geofenceNames))success
+                    failure:(void (^ _Nonnull)(NSString * _Nonnull errorMessage))failure
+NS_SWIFT_NAME(checkInsideGeofence(success:failure:));
+
 @end
