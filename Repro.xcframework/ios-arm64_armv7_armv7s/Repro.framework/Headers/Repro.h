@@ -260,6 +260,13 @@ NS_SWIFT_NAME(linkLineID(lineUserID:lineChannelID:));
 + (void)unlinkLineID:(nonnull NSString *)lineUserId lineChannelID:(nonnull NSString *)lineChannelId
 NS_SWIFT_NAME(unlinkLineID(lineUserID:lineChannelID:));
 
+// Email Channel Integration
++ (void)subscribeEmailChannel:(NSInteger)channelId
+NS_SWIFT_NAME(subscribeEmailChannel(channelID:));
+
++ (void)unsubscribeEmailChannel:(NSInteger)channelId
+NS_SWIFT_NAME(unsubscribeEmailChannel(channelID:));
+
 + (void)deepLinkReceived:(nonnull NSURL *)url
 NS_SWIFT_NAME(deepLinkReceived(url:));
 
