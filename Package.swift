@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Repro",
-    platforms: [ .iOS(.v10) ],
+    platforms: [ .iOS(.v13) ],
     products: [
         .library(
             name: "Repro",

@@ -1,0 +1,6 @@
+framework module Repro {
+  umbrella header "Repro.h"
+
+  export *
+  module * { export * }
+}
