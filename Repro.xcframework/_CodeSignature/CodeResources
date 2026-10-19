@@ -4,277 +4,205 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPREventProperties.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPREventProperties.h</key>
 		<data>
 		dJeljFnQHNt8vn7WuJvi0P6Y6v0=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
 		<data>
 		199GkJDU2FyeL799jVHjEOWVAC0=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPRRemoteConfig.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPRRemoteConfig.h</key>
 		<data>
 		JtNBZF8S/Z7auCXZcsZZcAZCVGY=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPRUserProfileTypes.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPRUserProfileTypes.h</key>
 		<data>
 		xuBOa8OFUUQCZ+iLDVUnIxCx95Q=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/Repro.h</key>
+		<key>ios-arm64/Repro.framework/Headers/Repro.h</key>
 		<data>
 		1ksLkMnccTIJoDe6nvPeHO1VDfw=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Info.plist</key>
+		<key>ios-arm64/Repro.framework/Info.plist</key>
 		<data>
-		nS+eYpidcatZoKJN0XKJ0SoNuDg=
+		BVisHXuqNvZU7vnuF1aeVhw3Y98=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Modules/module.modulemap</key>
+		<key>ios-arm64/Repro.framework/Modules/module.modulemap</key>
 		<data>
-		P+SzLpmOU5J1zNfd8PYD+INPgXg=
+		icY2Sv6wuqJrQ6D8nz+C5HbxvbI=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64/Repro.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		nRkKT8/0fnWtX2836gFEZXU6wH0=
 		</data>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Repro</key>
+		<key>ios-arm64/Repro.framework/Repro</key>
 		<data>
-		qtFyZVFcn6GetZ5qde1nT4WIFcw=
+		Ck/oJ2nlm4xHtap4Dmhk4IVHO2M=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPREventProperties.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPREventProperties.h</key>
 		<data>
 		dJeljFnQHNt8vn7WuJvi0P6Y6v0=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
 		<data>
 		199GkJDU2FyeL799jVHjEOWVAC0=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPRRemoteConfig.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPRRemoteConfig.h</key>
 		<data>
 		JtNBZF8S/Z7auCXZcsZZcAZCVGY=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPRUserProfileTypes.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPRUserProfileTypes.h</key>
 		<data>
 		xuBOa8OFUUQCZ+iLDVUnIxCx95Q=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/Repro.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/Repro.h</key>
 		<data>
 		1ksLkMnccTIJoDe6nvPeHO1VDfw=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Info.plist</key>
 		<data>
-		jQX4K7FMjAwbMvb5QxQKyEQ6vho=
+		ttpPhANNpi4weJIKNkqt7bBVl5s=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Modules/module.modulemap</key>
 		<data>
-		P+SzLpmOU5J1zNfd8PYD+INPgXg=
+		icY2Sv6wuqJrQ6D8nz+C5HbxvbI=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		nRkKT8/0fnWtX2836gFEZXU6wH0=
 		</data>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Repro</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Repro</key>
 		<data>
-		Ld83d3gO8w5tIp1KEU1CTaPorQY=
+		ibUesKc2tp2uEgkSBQD3W3+tpLU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPREventProperties.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPREventProperties.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dJeljFnQHNt8vn7WuJvi0P6Y6v0=
-			</data>
 			<key>hash2</key>
 			<data>
 			MCz1vAm7ilegFU0NyybluIFlhOtLmNxDco8EfcHj5Yo=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			199GkJDU2FyeL799jVHjEOWVAC0=
-			</data>
 			<key>hash2</key>
 			<data>
 			btlPz0kZcISduoS6YhJN81GKa0Xal5QcEitu5y4XkdA=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPRRemoteConfig.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPRRemoteConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JtNBZF8S/Z7auCXZcsZZcAZCVGY=
-			</data>
 			<key>hash2</key>
 			<data>
 			afD9fb/DWWw1Ku3QuUqXahVM5ZffVD0RZZ50JvuuItc=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/RPRUserProfileTypes.h</key>
+		<key>ios-arm64/Repro.framework/Headers/RPRUserProfileTypes.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xuBOa8OFUUQCZ+iLDVUnIxCx95Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qfz4IqXuBUYKIRLK6CQSChlj+QkOCNOOoVqyfGlMn9s=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Headers/Repro.h</key>
+		<key>ios-arm64/Repro.framework/Headers/Repro.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1ksLkMnccTIJoDe6nvPeHO1VDfw=
-			</data>
 			<key>hash2</key>
 			<data>
 			mBpicnN54Wd6HBRBM0lGEmCYgy6XAgabWC48CHLuqwc=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Info.plist</key>
+		<key>ios-arm64/Repro.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nS+eYpidcatZoKJN0XKJ0SoNuDg=
-			</data>
 			<key>hash2</key>
 			<data>
-			ijytoMMRrZdl+FpEEbxxswGCwmkjCrdm8Cg/HMB8JMs=
+			3RtZXPQC33EYKiKR2hqMIhZaQWod7Ko6qY6uTWLkj7M=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Modules/module.modulemap</key>
+		<key>ios-arm64/Repro.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P+SzLpmOU5J1zNfd8PYD+INPgXg=
-			</data>
 			<key>hash2</key>
 			<data>
-			wvl+oN2RmRjr1wHRE9ouDEe1/Mck2zURnZUPmclRuME=
+			aEALdbjjzkuArbr7eAam4XcMZYqkY5sJi1mB3LKJdhQ=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64/Repro.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nRkKT8/0fnWtX2836gFEZXU6wH0=
-			</data>
 			<key>hash2</key>
 			<data>
 			GxtXwCnnkiPh1OO2nD8vmYtPUG1NrMAX2GVYbjEBtHQ=
 			</data>
 		</dict>
-		<key>ios-arm64_armv7_armv7s/Repro.framework/Repro</key>
+		<key>ios-arm64/Repro.framework/Repro</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qtFyZVFcn6GetZ5qde1nT4WIFcw=
-			</data>
 			<key>hash2</key>
 			<data>
-			mhTaSrFd/iu5fU7kJwAujQirrbf/QWW8fGI9M7sRfEs=
+			2XC+539FUKHr4XpBPixE9xIhztVugBLmchtULn+YhsI=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPREventProperties.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPREventProperties.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dJeljFnQHNt8vn7WuJvi0P6Y6v0=
-			</data>
 			<key>hash2</key>
 			<data>
 			MCz1vAm7ilegFU0NyybluIFlhOtLmNxDco8EfcHj5Yo=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPRNewsFeedEntry.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			199GkJDU2FyeL799jVHjEOWVAC0=
-			</data>
 			<key>hash2</key>
 			<data>
 			btlPz0kZcISduoS6YhJN81GKa0Xal5QcEitu5y4XkdA=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPRRemoteConfig.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPRRemoteConfig.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JtNBZF8S/Z7auCXZcsZZcAZCVGY=
-			</data>
 			<key>hash2</key>
 			<data>
 			afD9fb/DWWw1Ku3QuUqXahVM5ZffVD0RZZ50JvuuItc=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/RPRUserProfileTypes.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/RPRUserProfileTypes.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xuBOa8OFUUQCZ+iLDVUnIxCx95Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qfz4IqXuBUYKIRLK6CQSChlj+QkOCNOOoVqyfGlMn9s=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Headers/Repro.h</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Headers/Repro.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1ksLkMnccTIJoDe6nvPeHO1VDfw=
-			</data>
 			<key>hash2</key>
 			<data>
 			mBpicnN54Wd6HBRBM0lGEmCYgy6XAgabWC48CHLuqwc=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Info.plist</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jQX4K7FMjAwbMvb5QxQKyEQ6vho=
-			</data>
 			<key>hash2</key>
 			<data>
-			26mtF/I8qDAiNH/oulw7CA9TPzpWi6T5Ns2/Y7ukriU=
+			u8Fq/ltc070jKEf+u5fR4eYQ/ZIInFyEYL3od6Xt0pE=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Modules/module.modulemap</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P+SzLpmOU5J1zNfd8PYD+INPgXg=
-			</data>
 			<key>hash2</key>
 			<data>
-			wvl+oN2RmRjr1wHRE9ouDEe1/Mck2zURnZUPmclRuME=
+			aEALdbjjzkuArbr7eAam4XcMZYqkY5sJi1mB3LKJdhQ=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/PrivacyInfo.xcprivacy</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nRkKT8/0fnWtX2836gFEZXU6wH0=
-			</data>
 			<key>hash2</key>
 			<data>
 			GxtXwCnnkiPh1OO2nD8vmYtPUG1NrMAX2GVYbjEBtHQ=
 			</data>
 		</dict>
-		<key>ios-arm64_i386_x86_64-simulator/Repro.framework/Repro</key>
+		<key>ios-arm64_x86_64-simulator/Repro.framework/Repro</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ld83d3gO8w5tIp1KEU1CTaPorQY=
-			</data>
 			<key>hash2</key>
 			<data>
-			oEbZO66FxFs6KOtpqAThIZe+wiOCwd6WRXrc5KP8GxY=
+			2VSM+d8qEX5glwAn/jcHo5/IN2pCaSzINT9loh85LHk=
 			</data>
 		</dict>
 	</dict>
